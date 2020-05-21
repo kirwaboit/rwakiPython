@@ -53,9 +53,20 @@ You should use input to read a string and float() to convert the string to a num
 
 """LOOP HOMEWORK 5.0"""
 
-while True:
-    line=input('>')
+while True:                 
+    line=input('Enter Value >')
     if line =='done':
         break    #break mean exit the loop immediately!!!
+    else:
+        line="not done"
     print(line)
 print('Done! ')
+
+
+"""LOOP EXAMPLE 5.3"""
+valueToCompare=-45
+for items in [9,41,12,3,74,15]:
+    if items>valueToCompare:
+        valueToCompare=items
+print ("The highest value is" , valueToCompare)
+
