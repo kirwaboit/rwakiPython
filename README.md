@@ -6,19 +6,19 @@ e.g
 
 
 
-#Markdown tips
+# Markdown tips
 How to add new line in Markdown presentation?  
 To force a line return, place two empty spaces at the end of a line.  
 test123  
 
-#Git Notes
+# Git Notes
 
-##Setting up git clone(copy) for the first time
+## Setting up git clone(copy) for the first time
 git clone git@github:me/name.git .
 
 git clone https://gitlab.com/janevieve/myterraformproject.git .  
 
-##Submitting changes
+## Submitting changes
 
 git add .
 git commit -m "description/reason for this commit"
