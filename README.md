@@ -30,3 +30,10 @@ git push -u "https://gitlab.com/janevieve/myterraformproject.git" master
 <li>Third item</li>
 <li>Fourth item</li>
 </ol>
+
+## Useful python tips
+continue means stop and immediately go back to start of loop
+
+<pre><code>This is a code block.
+</code></pre>
+
