@@ -36,13 +36,13 @@ You should use input to read a string and float() to convert the string to a num
  the user types numbers properly. Do not name your variable sum or use the sum() function.'''
 
 
-# def computepay(h,r):
-#     if h<= 40:
-#         return (h*r)
-#     else:
-#         return ((40*r)+((h-40)*(r*1.5)))
-#
-#
+def computepay(h,r):
+    if h<= 40:
+        return (h*r)
+    else:
+        return ((40*r)+((h-40)*(r*1.5)))
+
+
 # hrs = input("Enter Hours:")
 # hrs=float(hrs)
 # rate = input("Enter rate:")
@@ -53,67 +53,70 @@ You should use input to read a string and float() to convert the string to a num
 
 """LOOP HOMEWORK 5.0"""
 
-while True:                 
-    line=input('Enter Value >')
-    if line =='done':
-        break    # break mean exit the loop immediately!!!
-    else:
-        line="not done"
-    print(line)
-print('Done! ')
-
-
-"""LOOP EXAMPLE_v1 5.3"""
-valueToCompare=-45
-for items in [9,41,12,3,74,15]:
-    if items>valueToCompare:
-        valueToCompare=items
-print ("The highest value is" , valueToCompare)
+# while True:
+#     # line=input('Enter Value >')
+#     line = 'done'
+#     if line =='done':
+#         break    # break mean exit the loop immediately!!!
+#     else:
+#         line="not done"
+#     print(line)
+# print('Done! ')
+#
+#
+# """LOOP EXAMPLE_v1 5.3"""
+# valueToCompare=-45
+# for items in [9,41,12,3,74,15]:
+#     if items>valueToCompare:
+#         valueToCompare=items
+# print ("The highest value is" , valueToCompare)
 
 """LOOP EXAMPLE_v2 5.3"""
-
-num = 0
-tot =0.0
-while True:
-    sval = input('Enter a number')
-    if sval == 'done':
-        break
-    try:
-        fval = float(sval)
-    except Wrong:
-        print('Invalid input')
-        continue   # if exception is met, go to top of que
-    num = num +1
-    tot = tot + fval
-print(tot, num,tot/num)
+#
+# num = 0
+# tot =0.0
+# while True:
+#     # sval = input('Enter a number')
+#     sval = 'done'
+#     if sval == 'done':
+#         break
+#     try:
+#         fval = float(sval)
+#     except Wrong:
+#         print('Invalid input')
+#         continue   # if exception is met, go to top of que
+#     num = num +1
+#     tot = tot + fval
+# print(tot, num,tot/num)
 
 """LOOP EXAMPLE_v3 5.3"""
 
-largest = None
-smallest = None
-initializeInputFlag=0  # zero means th inputs have not been inittilized
-while True:
-    num = input("Enter a number: ")
-    if num == "done": break
-    # print(num)
-    try:
-        num=float(num)
-    except:
-        print('Invalid input')
-        continue
-    if initializeInputFlag==0:
-        largest=num
-        smallest=num
-        initializeInputFlag = 1
-
-    if largest<num:
-        largest=num
-    if smallest>num:
-        smallest=num
-
-
-print("Maximum is", int(largest))
-print("Minimum is", int(smallest))
+# largest = None
+# smallest = None
+# initializeInputFlag=0  # zero means th inputs have not been inittilized
+# while True:
+#     # num = input("Enter a number: ") #TODO remove comment to run this code properly
+#     num = 'done'
+#     if num == "done": break
+#     # print(num)
+#     try:
+#         num=float(num)
+#     except:
+#         print('Invalid input')
+#         continue
+#     if initializeInputFlag==0:
+#         largest=num
+#         smallest=num
+#         initializeInputFlag = 1
+#
+#     if largest<num:
+#         largest=num
+#     if smallest>num:
+#         smallest=num
+#
+#
+# print("Maximum is", int(largest))
+# print("Minimum is", int(smallest))
 
 """STRING LOOP EXAMPLE 6.1"""
 '''loop through the length of the string and print all the values of the string'''
@@ -124,9 +127,9 @@ while index < len(fruit):
     letter = fruit[index]
     print(index, letter)
     index = index + 1
+"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-
-'''Using  form loop we can reduce ths loop to :-'''
+'''Using  a good short form of a loop we can reduce ths loop to :-'''
 fruit = 'banana'
 for item in fruit:
     print(item)
@@ -145,3 +148,43 @@ s= 'Monty Python'
 print(s[:2])  # print the beginning  until index 2 ie "Mo"
 print(s[8:])  # print from index 8 till the end i.e "thon"
 print(s[:])   # print everything
+
+'''Finding stuff in strings'''
+fruit = 'banana'
+
+if 'n' in fruit:
+    print('found n')
+
+'''METHODS IN CLASS STR'''
+print(fruit.upper())
+
+print(fruit.capitalize())
+
+print(fruit.find('na'))  # returns first index of where it found a value
+
+print(fruit.replace('a','O'))  #works for replacign strings to e.g replace('bob','ken'),
+
+#  .lstrip  strips left space, .rstrip, or .strip
+
+#line.startswitch('please')
+
+"""STRING PROJECT"""
+
+text = "X-DSPAM-Confidence:    0.8475"
+
+atpos=text.find('0')
+print(atpos)
+
+print(text[23:])
+
+numbaStr1=float(text[23:])
+
+print(numbaStr1)
+
+atpos=text.find('0')
+
+numberStr=text[23:]
+
+floatnmbr=float(numberStr)
+
+print(floatnmbr)
