@@ -324,4 +324,14 @@ for aaa,bbb in jjj.items():
 # chuck 1
 # fred 42
 
+#Getting largest value in dictionary
+
+bigcount = None
+bigword = None
+for word, count in counts.items():
+    if bigcount is None or count > bigcount:
+        bigword = word
+        bigcount = count
+
+print(bigword, bigcount)
 
