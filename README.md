@@ -46,6 +46,15 @@ index operator
 - Dictionaries are a memory based key value store, they are associative arrays,most powerful data collection
 
 - Unlike strings, dictionaries do not use indexes
+
+- Tuples are immutable, just like strings, and thus can be more efficiently stored by python
+
+- as a result you cannot sort, add, or reverse tuples
+
+- Dictionaries and tuples go hand in hand, literally !!! as a dictionary is comprised of tuples
+
+- Lists are a sequence, tuples are a sequence and even a string is a sequence so stuff like max() methods work on them
+
 Linked logo: ![alt text](wordpress-logo-32.png)
 (http://wordpress.com/ "WordPress Website")
 

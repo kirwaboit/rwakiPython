@@ -335,3 +335,67 @@ for word, count in counts.items():
 
 print(bigword, bigcount)
 
+"""TUPLES"""
+# Its basically a list that uses parenthesis instead of square brackets
+# AND is immutable(i.e cannot be changed once made)
+# are like list but you use parenthesis BUT you don't need the parenthesis e.g x,y=3,4
+# are a limited or efficient form a of list that you cannot modify
+# if you use the items() method in a dictionary you will get a list of tuples
+# i.e  a list of key - value pairs.
+# In the alphabet, python considers letters to be more significant(higher in value the
+# further along it is in the alphabet e.g A is less than B  therefore
+# the highest value in the alphabet is the letter Z
+# Tuples can BE sorted, but you can sort a dictionary
+# Dictionaries have a sort function called 'SORTED' not SORT
+
+x= ('glen', 'sally', 'joseph')
+print(x[2]) #prints 'Joseph', just like in a list, notice the square bracket
+
+d=dict()
+d['csev'] = 2
+d['cwen'] = 4
+
+
+
+for (k,v) in d.items():  #items gives you the contents of the tuples or dictionary
+    print(k,v)
+#prints
+# csev 2
+# cwen 4
+
+# you can assign tuples e.g
+
+(x,y) = (4, 'fred')
+
+#  To  sort a  dictionary of tuples  AND it sorts by keys only
+
+d = {'a' : 10, 'b':1, 'c': 22}
+t = sorted (d.items())
+
+#you can also print out the sorted version of this( sorts by key only)
+
+for k,v in sorted(d.items()):
+    print(k,v)
+
+
+# also for comparisons, tuples only check the significant digits first,if that checks out
+# it ignores the rest
+
+(0,1,2) < (5,1,2)
+
+#to reverse a sort:-
+
+# create an empty list first:-
+tmp = list()
+
+# then just add the values of the dictionary as normal to the list:-
+for k,v in c.items()  :
+     tmp.append((v,k))
+
+
+# to sort the new list:-
+
+tmp = sorted( tmp, reverse = True)
+# what the above does is take the now reversed list and now sort it in reverse!!
+
+
