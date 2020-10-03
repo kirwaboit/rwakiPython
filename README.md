@@ -32,7 +32,7 @@ git push -u "https://gitlab.com/janevieve/myterraformproject.git" master
 
 
 ## Useful python tips
-- continue means stop and immediately go back to start of loop,  
+- continue means STOP and immediately go back to start of loop,  
 therefore it can be used to skip certain lines of code
 
 - Lists can have lists in them too e.g [1,2,[4,5],6]
@@ -54,6 +54,16 @@ index operator
 - Dictionaries and tuples go hand in hand, literally !!! as a dictionary is comprised of tuples
 
 - Lists are a sequence, tuples are a sequence and even a string is a sequence so stuff like max() methods work on them
+
+# Methods
+
+- A method behaves like a function but it is invoked on a specific instance.
+
+- Methods are accessed using dot notation
+
+- This is why 'exampleList.append(7)' has 2 parameters even though you may think it only has one: the list stored in the variable 'exampleList' is the first parameter value and 7 is the second.
+
+- A method does not need any other parameter information to do its work, there is still one formal parameter, <mark>self</mark>. As we stated earlier, all methods defined in a class that operate on objects of that class will have <mark>self</mark> as their first parameter. Again, this serves as a reference to the object itself which in turn gives access to the state data inside the object.
 
 Linked logo: ![alt text](wordpress-logo-32.png)
 (http://wordpress.com/ "WordPress Website")

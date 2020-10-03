@@ -20,7 +20,7 @@ c ={'a':10,'b':1,'c':22}
 '''FINAL ASSIGNMENT
 In this assignment Read data from  a text file, load it into python, 
 parse through it line by line and  and if a line starts with 'From' ,
- then split it up by space, slect the 5 string in the line, then split that by 
+ then split it up by space, select the 5 string in the line, then split that by 
  colon, then select the first part of that string then add it to a dictionary 
  along with the number of times it shows up in the entire document,essentially 
  creating a histogram'''
