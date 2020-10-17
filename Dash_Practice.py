@@ -1,31 +1,33 @@
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
+cityNames = ['Detroit', 'Ann Arbor', 'Pittsburgh','Mars', 'New York']
+populations = [680250,117070,304391,1683,8406000]
+states = ['MI', 'MI','PA', 'NY']
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+city_tuples = zip(cityNames, populations, states) # zip takes list and creates a list of tuples
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+class City:
+    def __init__(self, n,p,s):
+        self.name = n
+        self.population = p
+        self.state = s
+    def __str__(self):
+        return '{},{} (pop: {})'.format(self.name,self.state,self.population)
 
-app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+print("Without using list comprehension")
+cities = []
+for n in city_tuples:  # for every single value(every single tuple) in the city_tuples's tuple list
+    name, pop,state = n  # take a single tuple and store it in name pop and state respectfully
+    cityInstance = City(name,pop, state) # now use those values to create an instance of the City class that needs those 3 arguments and store it in the variable 'cityInstance'
+    cities.append(cityInstance)  # cities is now a list of City instances
+    print(cities)  # prints a list of the instances
 
-    html.Div(children='''
-        Dash: A web application framework for Python.
-    '''),
+    
+#Zero out cities for example below
 
-    dcc.Graph(
-        id='example-graph',
-        figure={
-            'data': [
-                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'San Fransisco'},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montréal'},
-            ],
-            'layout': {
-                'title': 'Dash Data Visualization'
-            }
-        }
-    )
-])
+cities = []
+print("\n")
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+
+# or we can use list comprehension :-
+
+cities = [City(n,p,s) for (n,p,s) in city_tuples]
+print("Using List Comprehension",cities)     # gives same result as the print statement above BUT need to comment the above code for the code below to work

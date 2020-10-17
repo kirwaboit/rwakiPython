@@ -55,11 +55,20 @@ index operator
 
 - Lists are a sequence, tuples are a sequence and even a string is a sequence so stuff like max() methods work on them
 
-# Methods
+# Methods and classes
+
+- A class  is like a facrory for creating objects
 
 - A method behaves like a function but it is invoked on a specific instance.
 
-- Methods are accessed using dot notation
+- Methods are accessed using dot notation   e.g the append() nethod below used on a list
+
+        fruits = ['apple', 'banana', 'cherry']
+        fruits.append("orange")
+
+- A good example of a famous method is the __init__ function
+
+- A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters. Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function.
 
 - This is why 'exampleList.append(7)' has 2 parameters even though you may think it only has one: the list stored in the variable 'exampleList' is the first parameter value and 7 is the second.
 
