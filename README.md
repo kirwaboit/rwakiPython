@@ -1,8 +1,6 @@
 # Python Notes
 
-A parameter is  a variable used in a function definition
-e.g  
-`<def my_first_function(my_first_parameter)>`   
+DRY - Don't Repeat Yourself, concept for re-using code
 
 
 
@@ -33,9 +31,13 @@ git push -u "https://gitlab.com/janevieve/myterraformproject.git" master
 
 ## Useful python tips
 - continue means STOP and immediately go back to start of loop,  
-therefore it can be used to skip certain lines of code
+therefore it can be used to skip certain lines of code e.g
 
-- Lists can have lists in them too e.g [1,2,[4,5],6]
+- Lists can have lists in them too e.g 
+
+        [1,2,[4,5],6]
+
+# Data Structures
 
 - Strings are "immutable"  i.e it cannot be changed, need to a create
 a new string to change the old one.
@@ -57,18 +59,37 @@ index operator
 
 # Methods and classes
 
-- A class  is like a facrory for creating objects
+- A class is like a factory for creating objects, it is a blueprint for creating objects
+
+- An instance is a unique copy of a Class that describes an Object.
+
+-It is therfeore correct to be refering to the instance  as the thing you create from the class rather than the object. What you work with, is the instance
 
 - A method behaves like a function but it is invoked on a specific instance.
 
-- Methods are accessed using dot notation   e.g the append() nethod below used on a list
+- Methods are accessed using dot notation   e.g the append() method below used on a list
 
         fruits = ['apple', 'banana', 'cherry']
         fruits.append("orange")
 
 - A good example of a famous method is the __init__ function
 
-- A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters. Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function.
+- Class Variables — Declared inside the class definition (but outside any of the instance methods). They are not tied to any particular object of the class, hence shared across all the objects of the class. Modifying a class variable affects all objects instance at the same time.
+
+- Instance Variable — Declared inside the constructor method of class (the __init__ method). They are tied to the particular object instance of the class, hence the contents of an instance variable are completely independent from one object instance to the other.
+
+- A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters. Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function. 
+
+- The Example below demonstrates  a class with parameters ,how they are related to arguments and how they are used with instance variables within the class 
+
+        class ExampleClass:
+            exampleVar1 = 32  # Class variable
+            def __init__(self, parameter1,parameter2,parameter3):
+                self.name = parameter1   # self.name is an instance variable
+                self.population = parameter2
+                self.state = parameter3
+        
+        ExampleInstance = ExampleCLass(argument1,argument2,argument3)
 
 - This is why 'exampleList.append(7)' has 2 parameters even though you may think it only has one: the list stored in the variable 'exampleList' is the first parameter value and 7 is the second.
 
