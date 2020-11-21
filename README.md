@@ -33,6 +33,8 @@ git push -u "https://gitlab.com/janevieve/myterraformproject.git" master
 - continue means STOP and immediately go back to start of loop,  
 therefore it can be used to skip certain lines of code e.g
 
+-Strive to use single quotation mmarks when you can
+
 - Lists can have lists in them too e.g 
 
         [1,2,[4,5],6]
