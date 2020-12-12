@@ -32,7 +32,8 @@ print(x)
 
 """FUNCTIONS HOMEWORK 4.6"""
 
-'''Write a program to prompt the user for hours and rate per hour using 
+'''
+Write a program to prompt the user for hours and rate per hour using 
 input to compute gross pay. Pay should be the normal rate for hours up to 
 40 and time-and-a-half for the hourly rate for all hours worked above 40 hours. 
 Put the logic to do the computation of pay in a function called computepay() and 
@@ -40,7 +41,8 @@ use the function to do the computation. The function should return a value. Use 
 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). 
 You should use input to read a string and float() to convert the string to a number.
  Do not worry about error checking the user input unless you want to - you can assume 
- the user types numbers properly. Do not name your variable sum or use the sum() function.'''
+ the user types numbers properly. Do not name your variable sum or use the sum() function.
+ '''
 
 
 def computepay(h,r):
@@ -340,12 +342,12 @@ print(bigword, bigcount)
 # AND is immutable(i.e cannot be changed once made)
 # are like list but you use parenthesis BUT you don't need the parenthesis e.g x,y=3,4
 # are a limited or efficient form a of list that you cannot modify
-# if you use the items() method in a dictionary you will get a list of tuples
+# if you use the .items() method in a dictionary you will get a list of tuples
 # i.e  a list of key - value pairs.
 # In the alphabet, python considers letters to be more significant(higher in value the
 # further along it is in the alphabet e.g A is less than B  therefore
 # the highest value in the alphabet is the letter Z
-# Tuples can BE sorted, but you can sort a dictionary
+# Tuples cannot BE sorted, but you can sort a dictionary
 # Dictionaries have a sort function called 'SORTED' not SORT
 
 x= ('glen', 'sally', 'joseph')
