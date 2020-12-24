@@ -8,10 +8,10 @@ bucket_name = os.environ['rwaki-practice-bucket-1'] # Supplied by Function servi
 def handler(message, context):
 
 # Add a file to your Object Store
-response = s3.put_object(
-Bucket=bucket_name,
-Key='randomTextFile.txt',
-Body='Sample Text',
-ACL='public-read'
-)
-return response
+    response = s3.put_object(
+    Bucket=bucket_name,
+    Key='randomTextFile2.txt',
+    Body='Sample Text',
+    ACL='public-read'
+    )
+    return response
