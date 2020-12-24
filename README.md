@@ -20,15 +20,9 @@ git clone https://gitlab.com/janevieve/myterraformproject.git .
 
 ## Submitting changes
 
-git add .
-git commit -m "description/reason for this commit"
+git add .  
+git commit -m "description/reason for this commit"  
 git push -u "https://gitlab.com/janevieve/myterraformproject.git" master  
-
-
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
 
 
 ## Useful python tips
@@ -41,6 +35,10 @@ therefore it can be used to skip certain lines of code e.g
 
         [1,2,[4,5],6]
 
+- Easy quick "for" loop 
+
+        for i in range(2):  
+        print "hello" 
 # Data Structures
 
 - Strings are "immutable"  i.e it cannot be changed, need to a create

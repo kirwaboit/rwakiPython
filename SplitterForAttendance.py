@@ -1,23 +1,9 @@
-# importing pandas module  
-import pandas as pd 
-   
-# reading csv file from url  
-data = pd.read_csv("https://media.geeksforgeeks.org/wp-content/uploads/nba.csv") 
-  
-# dropping null value columns to avoid errors 
-data.dropna(inplace = True) 
-  
-# new data frame with split value columns 
-new = data["Name"].str.split(" ", n = 1, expand = True) 
-  
-# making separate first name column from new data frame 
-data["First Name"]= new[0] 
-  
-# making separate last name column from new data frame 
-data["Last Name"]= new[1] 
-  
-# Dropping old Name columns 
-data.drop(columns =["Name"], inplace = True) 
-  
-# df display 
-data 
+class AppleBasket():
+    '''This class populates an apple basket with appoles of specified color and price'''
+    def __init__(self,apple_color,apple_quantity):
+        self.apple_color = apple_color
+        self.apple_quantity = apple_quantity
+    def increase(self):
+        self.apple_quantity = self.apple_quantity+1
+    def __str__(self):  # if you don't put this method then an actual instance memory point of the instance will be printed when you use "print"
+        return 'A basket of {} {} apples.' .format(self.apple_quantity, self.apple_color)  
