@@ -10,6 +10,7 @@ To force a line return, place two empty spaces at the end of a line.
 For code just use 4 spaces
 for Colored text use this template <span style="color:blue">some *blue* text</span>.   
 Great Markdown guide [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/).
+\\( and \\)
 
 # Git Notes
 
