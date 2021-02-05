@@ -1,4 +1,13 @@
-import pandas 
+
+# newStrings = 'UNION ALL'.join(
+#     ['SELECT id,...','SELECT id,...','SELECT id,...'])
 
 
-for index1, row1 in  df1.iterrows():
+['SELECT id,...SELECT id...,\
+SELECT id,...']
+
+#square brackets
+ # 1list  = []
+#parenthesis
+#quotation marks
+#print(newStrings)

@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\Burudani\\Anaconda3\\envs\\rwakiPythonEnv\\python.exe"
+    "python.pythonPath": "C:\\Users\\Burudani\\Anaconda3\\envs\\rwakiPythonEnv\\python.exe",
+    "jupyter.jupyterServerType": "local"
 }

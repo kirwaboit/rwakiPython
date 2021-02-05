@@ -1,15 +1,16 @@
-if y in (0,3):
-    print("#               #")
+import kirwaExampleModule as kem
 
-elif( y == 4 and x = 0):
-    print("# @             #")
-elif y = 4 and x = 1:
-    print("#    @          #")
-elif y = 4 and x = 2:
-    print("#       @       #")
-elif y = 4 and x = 3:
-    print("#          @    #")
-elif y = 4 and x = 4:
-    print("#             @ #")
+print(kem.var1)
+
+print (kem.produceThis(3,4))
 
 
+# exec("def init(self):\n\tprint(self.__class__.__name__ + \" created!\")")
+# A = type('A', (), {'__init__' : init })
+# a = A()
+
+from inspect import getmembers, isfunction
+
+#print(getmembers(kem, isfunction))
+
+help(kem)
