@@ -12,6 +12,10 @@ for Colored text use this template <span style="color:blue">some *blue* text</sp
 Great Markdown guide [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/).
 \\( and \\)
 
+# Git Badges
+
+https://docs.gitlab.com/ee/user/project/badges.html
+
 # Git Notes
 
 ## Setting up git clone(copy) for the first time
