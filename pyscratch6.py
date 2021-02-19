@@ -13,3 +13,6 @@ for diction in di:
 print("Total number of puppies:", total)
 
 
+class
+
+

@@ -2,7 +2,10 @@
 
 DRY - Don't Repeat Yourself, concept for re-using code
 
+# VScode Tips
 
+- Select current word =  ctrl + D  
+- Select all instances of that word = ctrl + shft + L
 
 # Markdown tips
 How to add new line in Markdown presentation?  
