@@ -1,13 +1,7 @@
-''' 1 A.Creating a List of strings'''
+from tkinter import *
 
-emptylist = ['']   #whitespace  
-nameList = ['kirwa boit'] #string
-kirwaBoit = 1*3
-janevieveString = ''
-employeeName = 'james'
-employeeCar = 'Hyundai'
+window = Tk()
 
-studentNameList = ['john','kelly','dave', 'mary','frank','nancy','paul','paul', 'kelly'] 
-studentNameList.reverse()
+window.title("Welcome to LikeGeeks app")
 
-print(studentNameList)
+window.mainloop()

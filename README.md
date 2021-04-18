@@ -1,4 +1,4 @@
-# Python Notes
+﻿# Python Notes
 
 DRY - Don't Repeat Yourself, concept for re-using code
 
@@ -37,7 +37,7 @@ git push -u "https://gitlab.com/janevieve/myterraformproject.git" master
 - continue means STOP and immediately go back to start of loop,  
 therefore it can be used to skip certain lines of code e.g
 
--Strive to use single quotation mmarks when you can
+-Strive to use single quotation marks when you can
 
 - Lists can have lists in them too e.g 
 
@@ -73,7 +73,7 @@ index operator
 
 - An instance is a unique copy of a Class that describes an Object.
 
--It is therfeore correct to be refering to the instance  as the thing you create from the class rather than the object. What you work with, is the instance
+- It is therefore correct to be referring to the instance  as the thing you create from the class rather than the object. What you work with, is the instance
 
 - A method behaves like a function but it is invoked on a specific instance.
 
@@ -82,15 +82,15 @@ index operator
         fruits = ['apple', 'banana', 'cherry']
         fruits.append("orange")
 
-- A good example of a famous method is the __init__ function, commonly refferd to then as a the __init__ method.
+- A good example of a famous method is the __init__ function, commonly referred to then as a the __init__ method. (The usually refer to this as "dunder init", much in the same way  __main__ is referred to as "dunder main", or __name__ as "dunder name". Basically the double undeerscores are refred to as "dunders")
 
 - Class Variables — Declared inside the class definition (but outside any of the instance methods). They are not tied to any particular object of the class, hence shared across all the objects of the class. Modifying a class variable affects all objects instance at the same time.
 
-- Instance Variable — Declared inside the constructor method of class (the __init__ method). They are tied to the particular object instance of the class, hence the contents of an instance variable are completely independent from one object instance to the other.
+- Instance Variable — Declared inside the constructor method of class (the __init__ method). They are tied to the particular object instance of the class; hence the contents of an instance variable are completely independent from one object instance to the other.
 
 - A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters. Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function. 
 
-- The Example below demonstrates  a class with parameters ,how they are related to arguments and how they are used with instance variables within the class 
+- The Example below demonstrates a class with parameters, how they are related to arguments and how they are used with instance variables within the class 
 
         class ExampleClass:
             exampleVar1 = 32  # Class variable
@@ -124,13 +124,15 @@ Before you decide to define a new class, there are a few things to keep in mind,
 After considering those questions and making decisions about how you’re going to get started with a class definition, you can begin to define your class.
 
 Remember that a class definition, like a function definition, is a general description of what every instance of the class should have. (Every Point has an x and a y.) The class instances are specific: e.g. the Point with a specific x and y >. You might have a Point with an x value of 3 and a y value of 2, so for that particular instance of the class Point, you’d pass in 3 and 2 to the constructor, the __init__ method, like so: new_point = Point(3,2), as you saw in the last sections.
+
 # Summary on Try/Except use cases
-- Use it when the code has a strong chance  error out, but still want it to do something!   
-usefull that is important   
+- Use it when the code has a strong chance to error out, but still want it to do something!   
+useful that is important.   
 
 Linked logo: ![alt text](wordpress-logo-32.png)
 (http://wordpress.com/ "WordPress Website")
 
 <pre><code>This is a code block.
 </code></pre>
+
 
