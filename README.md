@@ -19,8 +19,17 @@ Great Markdown guide [Markdown Guide: Basic Syntax](https://www.markdownguide.or
 
 https://docs.gitlab.com/ee/user/project/badges.html
 
-# Git Notes
+# Git Notes  
+To write code in-line use the backtick  e.g  `this is my code`  
+To write code use tripple backticks to mark to open and close the code block, like this:-  
+``` 
+My Block of code
 
+and other stuff 
+```
+
+
+ 
 ## Setting up git clone(copy) for the first time
 git clone git@github:me/name.git .
 
@@ -30,7 +39,15 @@ git clone https://gitlab.com/janevieve/myterraformproject.git .
 
 git add .  
 git commit -m "description/reason for this commit"  
-git push -u "https://gitlab.com/janevieve/myterraformproject.git" master  
+git push -u "https://gitlab.com/janevieve/myterraformproject.git" master    
+
+git push https://gitlab-ci-token:zsan6XdkBsLQ9sDsSnky@gitlab.com/rwaki/rwakipythonpractice.git" master  
+
+git clone https://gitlab.com/janevieve/myterraformproject.git .
+
+git remote add origin https://gitlab.com/rwaki/repoforindex.git
+
+git clone https://gitlab.com/rwaki/rwakipythonpractice.git .
 
 
 ## Useful python tips
