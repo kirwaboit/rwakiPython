@@ -13,7 +13,22 @@
             "driver": "MySQL",
             "name": "rwakiExperimentalConnection",
             "username": "root",
-            "database": "janevieve_hw"
+            "database": "sakila"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL_Connection",
+            "database": "LydiaHelp",
+            "username": "DESKTOP-Q8DKIFQ\\Burudani",
+            "password": ""
         }
     ]
 }
