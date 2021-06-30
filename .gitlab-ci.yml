@@ -3,5 +3,5 @@ demo_job_1:
     -ci
    script:
     -echo Hello World
-    -git checkout dev
+    -git checkout master
     -git pull
