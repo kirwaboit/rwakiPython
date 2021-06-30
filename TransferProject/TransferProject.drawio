@@ -1,0 +1,56 @@
+<mxfile>
+    <diagram id="9Se5A7EV37zHVQ6NHyxU" name="Page-1">
+        <mxGraphModel dx="780" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=15;" parent="1" source="4" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="260" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="270"/>
+                            <mxPoint x="20" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="140" width="116" height="86.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="170" width="116" height="86.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=15;" parent="1" source="7" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="341"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.onedrive;gradientColor=#DFDEDE" parent="1" vertex="1">
+                    <mxGeometry x="310" y="290" width="102.4" height="102.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endSize=15;" parent="1" source="8" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="40" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font style=&quot;font-size: 26px&quot;&gt;Gitlab&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font style=&quot;font-size: 26px&quot;&gt;OneDrive&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=1;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;font-size: 22px&quot;&gt;Commercial&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;strokeWidth=6;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="236.5" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font style=&quot;font-size: 22px&quot;&gt;Federal&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;strokeWidth=6;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="270" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font style=&quot;font-size: 22px&quot;&gt;Phase 1: Comm-&amp;gt;Federal&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#0050ef;strokeColor=#001DBC;rounded=0;strokeWidth=6;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="55" width="270" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,9 +1,10 @@
 import boto3
 ec2 = boto3.resource('ec2')
 
+#ImageId='ami-04d29b6f966df1537',    the old image
 
 instances = ec2.create_instances(
-     ImageId='ami-04d29b6f966df1537',
+     ImageId='ami-0ab4d1e9cf9a1215a',   # Current new Free Tier
      MinCount=1,
      MaxCount=1,
      InstanceType='t2.micro',
@@ -14,7 +15,7 @@ instances = ec2.create_instances(
           'Tags': [
             {
               'Key': 'Name',
-              'Value': 'janevieve_MatakoYakeX3'
+              'Value': 'Linux 2 AMI (HVM)'
             },
             {
               'Key': 'owner',
