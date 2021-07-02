@@ -1,5 +1,7 @@
 #!/bin/sh
 # This scrip is for pushing my code to gitlab
+echo Starting Push for Janevieve, Please enter Commit Message:
+read varMessage
 git add .
-git commit -m "using a script to send my code to gitlab"
+git commit -m "$varMessage"
 git push "https://gitlab-ci-token:TqCszEqvPgUyWoA-UZtC@gitlab.com/rwaki/rwakipythonpractice.git" master
