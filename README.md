@@ -178,4 +178,4 @@ Linked logo: ![alt text](wordpress-logo-32.png)
 - To delete this service open up an administrator command prompt and type "sc delete gitlab-runner" after that is done, you gitlab-runner should no longer show up in your services
 - Now go to your folder, the one where you want you gitlab-runner installed and do a fresh intall and registration in that folder!
 - Make sure your gitlab runner has the correct tags, AND make sure your gitlab repo project has the same tags that you want you runner to respond to 
-- NB:  when dealing with gitlab runner you will want to run and do changes to your gitlab runner in "administrative mode" therefore you want your vscode, or pycharm or cmd or git terminal, or IDE of choice to have administrative priviledges. If you don't do that , it may deny access to some commands
+- NB:  when dealing with gitlab runner you will want to run and do changes to your gitlab runner in "administrative mode" in the cmd teminal .Therefore you want your vscode, or pycharm or cmd or git terminal, or IDE of choice to have administrative priviledges for the cmd terminal. If you don't do that , it may deny access to some commands
