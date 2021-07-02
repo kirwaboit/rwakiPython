@@ -1,6 +1,6 @@
 #!/bin/sh
 # This scrip is for pushing my code to gitlab
-echo Starting Push for Janevieve, Please enter Commit Message:
+echo Starting Push for $USER, Please enter Commit Message:
 read varMessage
 git add .
 git commit -m "$varMessage"
