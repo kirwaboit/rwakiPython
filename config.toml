@@ -5,18 +5,6 @@ check_interval = 0
   session_timeout = 1800
 
 [[runners]]
-  name = "VSCodeRunner"
-  url = "https://gitlab.com/"
-  token = "BZeEbJb9WrkYYD4qEN7W"
-  executor = "shell"
-  shell = "cmd"
-  [runners.custom_build_dir]
-  [runners.cache]
-    [runners.cache.s3]
-    [runners.cache.gcs]
-    [runners.cache.azure]
-
-[[runners]]
   name = "vscoderunner_v2"
   url = "https://gitlab.com/"
   token = "d5dVwbmGpyCbgedXFwkn"

@@ -15,6 +15,25 @@ for Colored text use this template <span style="color:blue">some *blue* text</sp
 Great Markdown guide [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/).
 \\( and \\)
 
+# Git Operations
+## Git pushing 
+
+git add .  
+git commit -m "description/reason for this commit"  
+git push -u "url_of_project" master  
+
+e.g  
+git push -u "https://gitlab.com/rwaki/rwakipythonpractice.git" master
+
+Pushing with a token
+
+git push "https://gitlab-ci-token:accessTokenHere@gitlab.com/rwaki/rwakipythonpractice.git" master 
+
+
+
+
+
+
 # Git Badges
 
 https://docs.gitlab.com/ee/user/project/badges.html
@@ -152,4 +171,11 @@ Linked logo: ![alt text](wordpress-logo-32.png)
 <pre><code>This is a code block.
 </code></pre>
 
-
+# Fixing bad runners   - in windows
+- First off I had several issues, one was that I tried to install several git runners in my system
+- So first step was to delete ALL the runner except for the single one that you need, I mean obliterate all files relating to git-lab runners in your entire machine
+- Now delete all services related to previously installed gitlab-runners in your windows services i.e  type services in your windows search bar, enter it and check to see if you have a gitlab-runner service either running or stopped.
+- To delete this service open up an administrator command prompt and type "sc delete gitlab-runner" after that is done, you gitlab-runner should no longer show up in your services
+- Now go to your folder, the one where you want you gitlab-runner installed and do a fresh intall and registration in that folder!
+- Make sure your gitlab runner has the correct tags, AND make sure your gitlab repo project has the same tags that you want you runner to respond to 
+- NB:  when dealing with gitlab runner you will want to run and do changes to your gitlab runner in "administrative mode" therefore you want your vscode, or pycharm or cmd or git terminal, or IDE of choice to have administrative priviledges. If you don't do that , it may deny access to some commands
