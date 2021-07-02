@@ -3,7 +3,7 @@ demo_job_1:
     - 
       script: 
         - "echo Hello World"
-  tags: 
-    - ci
+tags: 
+   - ci
 
          
