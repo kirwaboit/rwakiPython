@@ -9,7 +9,7 @@ check_interval = 0
   url = "https://gitlab.com/"
   token = "BZeEbJb9WrkYYD4qEN7W"
   executor = "shell"
-  shell = "powershell"
+  shell = "cmd"
   [runners.custom_build_dir]
   [runners.cache]
     [runners.cache.s3]
@@ -21,7 +21,7 @@ check_interval = 0
   url = "https://gitlab.com/"
   token = "d5dVwbmGpyCbgedXFwkn"
   executor = "shell"
-  shell = "pwsh"
+  shell = "cmd"
   [runners.custom_build_dir]
   [runners.cache]
     [runners.cache.s3]
