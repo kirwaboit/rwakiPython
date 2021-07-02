@@ -15,3 +15,15 @@ check_interval = 0
     [runners.cache.s3]
     [runners.cache.gcs]
     [runners.cache.azure]
+
+[[runners]]
+  name = "vscoderunner_v2"
+  url = "https://gitlab.com/"
+  token = "d5dVwbmGpyCbgedXFwkn"
+  executor = "shell"
+  shell = "pwsh"
+  [runners.custom_build_dir]
+  [runners.cache]
+    [runners.cache.s3]
+    [runners.cache.gcs]
+    [runners.cache.azure]
