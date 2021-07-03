@@ -1,7 +1,6 @@
 demo_job_1:
    tags:
-    - ci
-   steps:
-      script:
+     - ci
+   script:
       - echo Hello World
       
