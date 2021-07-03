@@ -4,6 +4,7 @@ demo_job_1:
      - ci
    script:
      - cd C:\Users\Burudani\Documents\mainPythonFolder_v1\builds\d5dVwbmG\0\rwaki
+     - dir
      #- echo  pwd
 
      #- git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
