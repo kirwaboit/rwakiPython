@@ -3,6 +3,8 @@ demo_job_1:
    tags:
      - ci
    script:
-     - git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
+     - echo  '$(System.DefaultWorkingDirectory)'
+
+     #- git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
       
       
