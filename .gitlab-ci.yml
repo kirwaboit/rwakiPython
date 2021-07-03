@@ -3,6 +3,6 @@ demo_job_1:
    tags:
      - ci
    script:
-      - bash sudo pwd
+     - git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
       
       
