@@ -5,7 +5,7 @@ demo_job_1:
    script:
      - cd C:\Users\Burudani\Desktop\testFolder_v3
      - dir
-     - git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
+     - git clone https://gitlab.com/rwaki/aws_rwakiterraform.git .
   
 
 
