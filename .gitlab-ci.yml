@@ -3,6 +3,6 @@ demo_job_1:
    tags:
      - ci
    script:
-      - git -C /c/Users/Burudani/Desktop/testFolder_v3 clone "https://gitlab.com/rwaki/rwakipythonpractice.git" .
+      - sudo pwd
       
       
