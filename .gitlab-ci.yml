@@ -3,7 +3,7 @@ demo_job_1:
    tags:
      - ci
    script:
-     - dir
+     - cd C:\Users\Burudani\Documents\mainPythonFolder_v1\builds\d5dVwbmG\0\rwaki
      #- echo  pwd
 
      #- git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
