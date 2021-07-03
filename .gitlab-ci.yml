@@ -3,6 +3,6 @@ demo_job_1:
    tags:
      - ci
    script:
-      - sudo pwd
+      - bash sudo pwd
       
       
