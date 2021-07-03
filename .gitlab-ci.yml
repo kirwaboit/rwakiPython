@@ -1,8 +1,9 @@
 demo_job_1:
+   stage: build
    tags:
      - ci
    script:
       - echo Hello World
-      - touch newFile33.txt
+      #- touch newFile33.txt
       
       
