@@ -3,5 +3,6 @@ demo_job_1:
      - ci
    script:
       - echo Hello World
-      - git -C /c/Users/Burudani/Desktop/testFolder_v3 clone https://gitlab.com/rwaki/aws_rwakiterraform.git .
+      - touch newFile33.txt
+      
       
