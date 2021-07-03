@@ -4,6 +4,6 @@ demo_job_1:
      - ci
    script:
       - echo Hello World
-      #- touch newFile33.txt
+      - bash touch newFile33.txt
       
       
