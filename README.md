@@ -52,7 +52,8 @@ and other stuff
 ## Setting up git clone(copy) for the first time
 git clone git@github:me/name.git .
 
-git clone https://gitlab.com/janevieve/myterraformproject.git .  
+git clone https://gitlab.com/janevieve/myterraformproject.git .    
+git clone https://gitlab.com/rwaki/aws_rwakiterraform.git .
 
 ## Submitting changes
 
