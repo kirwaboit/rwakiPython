@@ -1,0 +1,4 @@
+[fetch]
+	recurseSubmodules = false
+[http "https://gitlab.com"]
+	sslCAInfo = C:\\Users\\Burudani\\Documents\\mainPythonFolder_v1\\builds\\-zMnCK5x\\0\\rwaki\\rwakipythonpractice.tmp\\CI_SERVER_TLS_CA_FILE
