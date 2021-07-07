@@ -9,6 +9,18 @@ check_interval = 0
   url = "https://gitlab.com/"
   token = "-zMnCK5xUyP3Emm883Ye"
   executor = "shell"
+  shell = "powershell"
+  [runners.custom_build_dir]
+  [runners.cache]
+    [runners.cache.s3]
+    [runners.cache.gcs]
+    [runners.cache.azure]
+
+[[runners]]
+  name = "gitlabrunner_v8"
+  url = "https://gitlab.com/"
+  token = "R_shkVrFNkW369qVRwLF"
+  executor = "shell"
   shell = "pwsh"
   [runners.custom_build_dir]
   [runners.cache]
