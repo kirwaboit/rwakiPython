@@ -3,6 +3,6 @@ demo_job_1:
    tags:
      - ci
    script:
-     - cd C:\Users\Burudani\OneDrive\Documents\OnedriveTestFolder
+     - cd "C:\Users\Burudani\OneDrive\Documents\OnedriveTestFolder\aws_rwakiterraform"
      - dir
-     - git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
+     - git pull https://gitlab.com/rwaki/aws_rwakiterraform.git
