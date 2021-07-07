@@ -5,9 +5,4 @@ demo_job_1:
    script:
      - cd C:\Users\Burudani\OneDrive\Documents\OnedriveTestFolder
      - dir
-     - git pull https://gitlab.com/rwaki/aws_rwakiterraform.git 
-  
-
-
-      
-      
+     - git clone https://gitlab.com/rwaki/aws_rwakiterraform.git
