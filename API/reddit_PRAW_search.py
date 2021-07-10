@@ -11,8 +11,8 @@ reddit = praw.Reddit(client_id='3k7EJkOzzg6nOA', \
                      username='gazagda', \
                      password='Gazagda1')
 
-search_term='news'
-keyword='student loans'
+search_term='devops'
+keyword='gitlab'
 
 if (len(sys.argv)>1):
     search_term=(sys.argv[1])
@@ -27,7 +27,7 @@ print ("Keyword: ",keyword)
 subreddit = reddit.subreddit(search_term)
 
 #resp = subreddit.search(keyword,limit=10)  previously, this g gave a generator as seen her. I converted it to a list as you can see below
-resp = list(subreddit.search(keyword,limit=10))
+resp = list(subreddit.search(keyword,limit=20))
 print(resp[0].created_utc) #TODO Trying to sort this according to date
 
 for submission in resp:
