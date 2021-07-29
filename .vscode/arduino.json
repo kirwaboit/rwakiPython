@@ -2,5 +2,5 @@
     "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
     "port": "COM3",
-    "sketch": "Arduino\\eraser.ino"
+    "sketch": "Arduino\\Arduino_Clearer\\arduino_clear.ino"
 }
