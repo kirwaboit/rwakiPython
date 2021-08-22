@@ -4,15 +4,17 @@ https://stackoverflow.com/questions/66364247/how-to-stop-and-start-ec2-instance-
 
 import boto3
 
-client = boto3.client('ec2',region_name='us-east-1') #Add your region
+ec2client = boto3.client('ec2')
+#client = boto3.client('ec2',region_name='us-east-1') #Add your region
 
-print('Loading function')
-
-def lambda_handler(event, context):
-    responses = client.start_instances(
+response = ec2client.start_instances(
     InstanceIds=[
-        'i-0b2b7ca94e00cfb8c'
+        'i-0b2b7ca94e00cfb8c','i-011a3cae618296a8a'
     ],
-
-    DryRun=True # Make it False to test
+    AdditionalInfo='string',
+    DryRun=False
 )
+
+print(response)
+
+
