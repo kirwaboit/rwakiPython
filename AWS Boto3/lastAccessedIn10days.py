@@ -1,14 +1,6 @@
 import boto3
 import datetime
-from datetime import timezone
-#from datetime import datetime
-from dateutil.tz import tzutc    # find out more about this
-import pytz
-
-import time
-#print(time.tzname)
-#print(time.localtime().tm_isdst)
-#print(time.tzname[1])#
+from dateutil.tz import tzutc
 
 resource = boto3.resource('iam')
 client = boto3.client('iam')
@@ -35,9 +27,9 @@ for user in resource.users.all():
 
     # More than x days since last access?
     if last_access is not None:
-        lastAccessDate = last_access.astimezone(pytz.timezone('US/Central'))
-        if lastAccessDate:
-            final_report += str(number) + " username: " + [user.user_name][0] + " Last Access =>" + str(lastAccessDate) + " \n"
+        delta = (today - last_access.replace(tzinfo=None)).days
+        if delta >= 10:
+            final_report += str(number) + " username: " + [user.user_name][0] + " - " + str(delta) + " days\n"
             number += 1
 
 print(final_report)

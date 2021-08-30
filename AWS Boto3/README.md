@@ -24,14 +24,27 @@ Credentials file  (does not have an extension)
 - Stands for Identity Access Management. It is global, you don't need to specify a region, applies to users and groups  
 - A group simply is a place to store users.Users in a group inherit all the permissions within it.  
 - To set permissions for a group, you need to apply a policy to that group
+- NB the "Last Activity" updates every 4 hours*
 
 
 ## Key Pairs  
 - These are particular to the region you created them in e.g N. Virginia i.e us-east-1  
 - The keypair is used to access i.e login to your aws servers/EC2 instances
-- when you create an EC2 you need to attach a keypair to it. It will prompt you to attach an existing one or create a new one
+- when you create an EC2 you need to attach a keypair to it. It will prompt you to attach an existing one or create a new one  
+
 
 
 ## Cloud Watch  
 - For setting up alarms related to billing
+
+
+## TODO
+- make the last use code take timezone  from local pc  
+- create users and assign policy  
+- query state of assets/resources  in AWS go off of this : https://stackoverflow.com/questions/53185119/aws-python-script-to-retrieve-list-of-resources-are-currently-in-use  
+- access s3  
+- use a lambda on an s3  
+- configure elastic load balancer 
+- understand pagination tokens  
+- understand this code https://aws.amazon.com/blogs/architecture/how-to-efficiently-extract-and-query-tagged-resources-using-the-aws-resource-tagging-api-and-s3-select-sql/ 
 
