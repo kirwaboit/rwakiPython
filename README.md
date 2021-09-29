@@ -181,3 +181,18 @@ Linked logo: ![alt text](wordpress-logo-32.png)
 - Make sure your gitlab runner has the correct tags, AND make sure your gitlab repo project has the same tags that you want you runner to respond to 
 - NB:  when dealing with gitlab runner you will want to run and do changes to your gitlab runner in "administrative mode" in the cmd teminal .Therefore you want your vscode, or pycharm or cmd or git terminal, or IDE of choice to have administrative priviledges for the cmd terminal. If you don't do that , it may deny access to some commands.
 testing glr
+
+
+3096793 G6
+3096793 G006
+
+3096793
+3096793
+3096793G006
+
+
+df[df['Country (region)'].str.match('^P.*')== True]
+df['Country (region)'].str.match('^P.*')== True
+
+
+I did not want to believe it myself, anf I m still at a loss for words
