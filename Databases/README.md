@@ -19,7 +19,15 @@ ACID stands for:
 
 # Postgress   
 
-![postgresElephantLogo](Databases\images\postgresElephantLogo.png)    
+
+
+
+<div style="width:50%">![Chilling](/https://www.w3schools.com/w3images/fjords.jpg)</div>  
+
+![a-kitten.jpg](/Databases\images\postgresElephantLogo.png =200x200)
+
+![postgresElephantLogo](/Databases\images\postgresElephantLogo.png){height="33px" width="32px"}
+
 
 Linked logo: ![alt text](/wordpress-logo-32.png)
 (http://wordpress.com/ "WordPress Website")
