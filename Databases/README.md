@@ -31,7 +31,9 @@ ACID stands for:
 
 
 
-<img src="./images/postgresElephantLogo.png" width="50%" height="50%" or <img src="image.png"  style="height:75%; width:75%" >
+<img src="./images/postgresElephantLogo.png" width="50%" height="50%" 
+
+<img src="./images/postgresElephantLogo.png"  style="height:75%; width:75%" >
 
 
 Linked logo: ![alt text](./wordpress-logo-32.png)
