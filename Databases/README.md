@@ -30,14 +30,11 @@ ACID stands for:
 
 
 
-<div style="width:50%">![Chilling](/https://www.w3schools.com/w3images/fjords.jpg)</div>  
 
-![a-kitten.jpg](/Databases\postgresElephantLogo.png =200x200)
-
-![postgresElephantLogo.png](./images/postgresElephantLogo.png){width=30% height=30%}
+<img src="./images/postgresElephantLogo.png" width="50%" height="50%" or <img src="image.png"  style="height:75%; width:75%" >
 
 
-Linked logo: ![alt text](/wordpress-logo-32.png)
+Linked logo: ![alt text](./wordpress-logo-32.png)
 (http://wordpress.com/ "WordPress Website")
 
 
