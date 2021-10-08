@@ -32,13 +32,15 @@ ACID stands for:
 
 
 
+![postgresElephantLogo.png](./images/postgresElephantLogo.png =100x20)
 
-<img src="./images/postgresElephantLogo.png"  style="height:30%; width:30%" >
+
+
 
 
 Linked logo: ![alt text](./wordpress-logo-32.png)
-(http://wordpress.com/ "WordPress Website")
-
+(http://wordpress.com/ "WordPress Website")  
+![](./images/postgresElephantLogo.png)<img src="./images/postgresElephantLogo.png"  width="120" height="120">
 
 
 - Pro: Rich SQL. PostgreSQL is old (first release in 1995) and its motto is “The World's Most Advanced Open Source Relational Database”. ...
