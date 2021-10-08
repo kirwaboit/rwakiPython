@@ -25,10 +25,12 @@ ACID stands for :-
 ACID stands for:  
 
 
-# Postgress   
+# Postgress    
+<img src="./images/postgresElephantLogo.png"  width="120" height="124">     
 
-![]()<img src="./images/postgresElephantLogo.png"  width="120" height="124">  
-<img src="./images/postgresElephantLogo.png"  width="120" height="124">
+
+ 
+
 
 
 - Pro: Rich SQL. PostgreSQL is old (first release in 1995) and its motto is “The World's Most Advanced Open Source Relational Database”. ...
