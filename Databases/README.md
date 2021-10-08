@@ -34,7 +34,7 @@ ACID stands for:
 
 ![a-kitten.jpg](/Databases\postgresElephantLogo.png =200x200)
 
-![postgresElephantLogo](/Databases\images\postgresElephantLogo.png)
+![postgresElephantLogo.png](/Databases\images\postgresElephantLogo.png)
 
 
 Linked logo: ![alt text](/wordpress-logo-32.png)
