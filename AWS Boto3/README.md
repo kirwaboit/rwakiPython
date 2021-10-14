@@ -32,7 +32,10 @@ Credentials file  (does not have an extension)
 - The keypair is used to access i.e login to your aws servers/EC2 instances
 - when you create an EC2 you need to attach a keypair to it. It will prompt you to attach an existing one or create a new one  
 
+## connect to EC2 on VScode
+- open up the SSH plugin/extension
 
+- select the instance and selct connect to , if it does not exist select the plus sign
 
 ## Cloud Watch  
 - For setting up alarms related to billing
