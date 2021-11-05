@@ -30,6 +30,7 @@ for item in response['Reservations']:
     elif ((instanceState.state['Name'] == "pending") or (instanceState.state['Name'] == "stopping")) :
         instanceStateColor = '33m'
 
+ 
     print("For instance number: " ,instanceCount,"\n") 
     print(
         "Image Id is: \033[35m {ImageId}\033[0m\n\

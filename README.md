@@ -183,16 +183,16 @@ Linked logo: ![alt text](wordpress-logo-32.png)
 testing glr
 
 
-3096793 G6
-3096793 G006
+## Terminal Colors
 
-3096793
-3096793
-3096793G006
-
+    print("\033[31mThis is red font.\033[0m")
+    print("\033[32mThis is green font.\033[0m")
+    print("\033[33mThis is yellow font.\033[0m")
+    print("\033[34mThis is blue font.\033[0m")
+    print("\033[38mThis is the default font. \033[0m")  # More than 37 will display the default font.
 
 df[df['Country (region)'].str.match('^P.*')== True]
 df['Country (region)'].str.match('^P.*')== True
 
 
-I did not want to believe it myself, anf I m still at a loss for words
+

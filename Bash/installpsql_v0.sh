@@ -12,3 +12,7 @@ sudo /usr/pgsql-13/bin/postgresql-13-setup initdb
 sudo systemctl enable postgresql-13
 sudo systemctl start postgresql-13
 echo Script Done!
+
+
+
+
