@@ -123,5 +123,9 @@ echo "${PATH//:/$'\n'}"
 ## Best utilities to install in new linux instance for productivity
 - App for zip and unzip install files
 - `yum install zip unzip -y`
+- Neofetch
+- `sudo yum install neofetch`
+
+PATH=$PATH:/opt/ibm/java-x86_64-80/bin
 
 
