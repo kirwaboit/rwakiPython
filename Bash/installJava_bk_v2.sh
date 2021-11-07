@@ -1,11 +1,13 @@
 #!/bin/bash
 
 CURRDIR=$(pwd)
-#JAVA_DL=""
+JAVA_DL=""
 #JAVA_TMP=""
 HOME_DIR=($HOME)
 JAVA_VERS=$2
 #USER_INSTALL_DIR=""
+
+$2 = 11
 
 #trap 'rm -f $CURRDIR/$JAVA_TMP' EXIT HUP INT TERM
 
@@ -85,35 +87,39 @@ fi
 #echo -n 'Please choose the Java version to be installed (supported versions: 70,71,8,11): '
 while :
 do
-  read JAVA_VERS
+  #read JAVA_VERS
   case $JAVA_VERS in
 
 	70)
 		JAVA_DL=$(echo "http://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/7.0.10.90/linux/x86_64/ibm-java-x86_64-sdk-7.0-10.90.bin")
 		JAVA_TMP=(ibm-java-x86_64-sdk-7.0-10.90.bin)
 		USER_INSTALL_DIR=/opt/ibm/java-x86_64-70
-		pre_req; install; post_install
+		#pre_req; install; post_install
+        $1
 		break
 		;;
 	71)
 		JAVA_DL=$(echo "http://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/7.1.4.90/linux/x86_64/ibm-java-x86_64-sdk-7.1-4.90.bin")
 		JAVA_TMP=(ibm-java-x86_64-sdk-7.1-4.90.bin)
 		USER_INSTALL_DIR=/opt/ibm/java-x86_64-71
-		pre_req; install; post_install
+		#pre_req; install; post_install
+        $1
 		break
 		;;
 	8)
 		JAVA_DL=$(echo "http://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.6.36/linux/x86_64/ibm-java-x86_64-sdk-8.0-6.36.bin")
 		JAVA_TMP=(ibm-java-x86_64-sdk-8.0-6.36.bin)
 		USER_INSTALL_DIR=/opt/ibm/java-x86_64-80
-		pre_req; install; post_install
+		#pre_req; install; post_install
+        $1
 		break
 		;;
 
 	11)	JAVA_DL=$(echo "https://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/11.0.12.0/linux/x86_64/ibm-semeru-certified-jdk_x64_linux_11.0.12.0.bin")
 		JAVA_TMP=(ibm-semeru-certified-jdk_x64_linux_11.0.12.0.bin)
 		USER_INSTALL_DIR=/opt/ibm/java-x86_64-11
-		pre_req; install; post_install
+		#pre_req; install; post_install
+        $1
 		break
 		;;
 

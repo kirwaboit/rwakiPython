@@ -1,6 +1,10 @@
 ## Operating system details  
 `cat /etc/os-release` 
-
+## Assigning variables
+- please please please!!! note: bash HATES spaces in assignemets, e.g:-
+- `java_ver = $1`   -DON'T do This
+- `java_ver=$1`      - DO This!!
+- If you make the mistake above, you will get `command not found`
 ## My current instances of interest
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-52-201-31-127.compute-1.amazonaws.com`   --for SUSE Linux
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-54-174-4-0.compute-1.amazonaws.com `     -- for RHEL
@@ -89,7 +93,7 @@ e.g
 export PATH="/opt/ibm/java-x86_64-80/bin:$PATH"
 
 ### testing path to linux program
-java -version
+`java -version`
 
 ## updating source
 
@@ -97,7 +101,7 @@ java -version
 
 
 ## access .bashrc
- vi .bashrc
+ `vi .bashrc`
 ## Add stuff to bash profile
 
 export PATH=/opt/ibm/java-x86_64-80/bin:$PATH>>~/.bash_profile  
@@ -109,7 +113,7 @@ source $HOME/.bashrc
 echo "export PATH="/opt/ibm/java-x86_64-80/bin:$PATH"" >> semaText.txt
 
 ## Delete contents of a file 
-truncate -s 0 filename.txt
+`truncate -s 0 filename.txt`
 
 echo -n "export PATH="/opt/ibm/java-x86_64-80/bin:$PATH"" >> semaText.txt
 
@@ -117,7 +121,7 @@ echo "export PATH="/opt/ibm/java-x86_64-80/bin:$PATH" ">> semaText.txt
 echo export PATH=\"/opt/ibm/java-x86_64-80/bin:$PATH\">> semaText.txt
 
 ## show human readable path
-echo "${PATH//:/$'\n'}"
+`echo "${PATH//:/$'\n'}"`
 
 
 ## Best utilities to install in new linux instance for productivity
@@ -126,6 +130,17 @@ echo "${PATH//:/$'\n'}"
 - Neofetch
 - `sudo yum install neofetch`
 
+        neofetch --ascii_distro ubuntu
+        neofetch --ascii_distro archlinux
+        neofetch --ascii_distro fedora
+        neofetch --ascii_distro manjaro
+        neofetch --ascii_distro debian
+        neofetch --ascii_distro rhel
+
 PATH=$PATH:/opt/ibm/java-x86_64-80/bin
 
+C:\Users\Burudani\Documents\mainPythonFolder_v1\Bash\exprimebash.sh firstpipe "22"
+
+
+chmod +x testBashScript.sh
 

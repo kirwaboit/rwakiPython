@@ -6,7 +6,7 @@ import json
 '''PREPARE THE FRAME'''
 ws = Tk()
 ws.title('EC2 Server Status')
-ws.geometry('600x700')   #X by Y
+ws.geometry('1000x700')   #X by Y
 ws.config(bg='grey67')
 
 
@@ -51,7 +51,7 @@ def refreshInstance():
         dataList.append('InstanceType : {}'.format(response['Reservations'][instanceCount ]['Instances'][0]['InstanceType'])+'\n')
         
         if response['Reservations'][instanceCount ]['Instances'][0]['PublicDnsName']:
-            dataList.append('Public DNS :{}'.format(response['Reservations'][instanceCount ]['Instances'][0]['PublicDnsName']+'\n'))
+            dataList.append('Public DNS  ssh -i "rwakiPython_v2.pem ":{}'.format(response['Reservations'][instanceCount ]['Instances'][0]['PublicDnsName']+'\n'))
         else:
             dataList.append('Public DNS : Instance is not online'+'\n')
     
@@ -94,7 +94,7 @@ def refreshInstance():
     text_box = Text(
         ws,
         height=90,
-        width=60,
+        width=90,
         bg = "black", #background color
         fg="white",
         font=("Consolas", 12)
@@ -115,7 +115,7 @@ def refreshInstance():
         lineCount = lineCount + 1
         text_box.tag_add("fifthLine", "{}.14".format(lineCount), "{}.70".format(lineCount))
         lineCount = lineCount + 1
-        text_box.tag_add("sixthLine", "{}.13".format(lineCount), "{}.70".format(lineCount))
+        text_box.tag_add("sixthLine", "{}.12".format(lineCount), "{}.90".format(lineCount))
         lineCount = lineCount + 1
     # text_box.tag_add("lastLine{} "+"{}.16".format(lineCount) "{}.70".format(instanceCount,lineCount,lineCount))
         text_box.tag_add("lastLine{}".format(instanceCount), "{}.16".format(lineCount), "{}.70".format(lineCount))
