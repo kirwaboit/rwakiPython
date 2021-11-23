@@ -1,5 +1,5 @@
 
-<img src="images/bashDarkLogo.png" alt="drawing" width="300" height="131"/>  
+<img src="images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>  
 
 # Welcome to BASH!!  
 - Bash supports regular expressions or regex!
