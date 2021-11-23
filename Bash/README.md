@@ -1,4 +1,4 @@
-![Image](images/BashPNGimage.png)
+![Image](images/bashDarkLogo.png)
 # Welcome to BASH!!  
 - Bash supports regular expressions or regex!
 - 
