@@ -28,6 +28,8 @@ Credentials file  (does not have an extension)
 
 
 ## Key Pairs  
+- These are created when you create an EC2, if you have previously created an EC2, then a previous key pair can be re-used
+- When downloaded, the keypair must be stored in the users home directory
 - These are particular to the region you created them in e.g N. Virginia i.e us-east-1  
 - The keypair is used to access i.e login to your aws servers/EC2 instances
 - when you create an EC2 you need to attach a keypair to it. It will prompt you to attach an existing one or create a new one  

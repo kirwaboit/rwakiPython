@@ -2,6 +2,7 @@ from tkinter import *
 import boto3
 import yaml
 import json
+import pretty_errors
 
 '''PREPARE THE FRAME'''
 ws = Tk()
@@ -51,7 +52,7 @@ def refreshInstance():
         dataList.append('InstanceType : {}'.format(response['Reservations'][instanceCount ]['Instances'][0]['InstanceType'])+'\n')
         
         if response['Reservations'][instanceCount ]['Instances'][0]['PublicDnsName']:
-            dataList.append('Public DNS  ssh -i "rwakiPython_v2.pem ":{}'.format(response['Reservations'][instanceCount ]['Instances'][0]['PublicDnsName']+'\n'))
+            dataList.append('Public DNS  ssh -i "rwakiPython_v2.pem" ec2-user@{}'.format(response['Reservations'][instanceCount ]['Instances'][0]['PublicDnsName']+'\n'))
         else:
             dataList.append('Public DNS : Instance is not online'+'\n')
     
@@ -94,7 +95,7 @@ def refreshInstance():
     text_box = Text(
         ws,
         height=90,
-        width=90,
+        width=100,
         bg = "black", #background color
         fg="white",
         font=("Consolas", 12)

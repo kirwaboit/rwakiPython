@@ -1,7 +1,21 @@
+![Image](images/BashPNGimage.png)
+# Welcome to BASH!!  
+- Bash supports regular expressions or regex!
+- 
+
+
+## Identify the shell of your system
+
+`echo $0`
+
 ## Operating system details  
 `cat /etc/os-release` 
+
+## See contents 
+`cat filename.txt`
+
 ## Assigning variables
-- please please please!!! note: bash HATES spaces in assignemets, e.g:-
+- please please please!!! note: bash HATES spaces in assignments, e.g:-
 - `java_ver = $1`   -DON'T do This
 - `java_ver=$1`      - DO This!!
 - If you make the mistake above, you will get `command not found`
@@ -12,7 +26,7 @@
 ## add user
 
 
-## add passwor dfor new user
+## add password for new user
 
 `passwd`
 
@@ -63,7 +77,7 @@ or
 
 ## combined install and locate command 
 
-    sudo dnf install mlocate
+    sudo dnf install mlocate -y
     sudo updatedb
     locate bin/postgres
     /usr/pgsql-13/bin/postgres -V
@@ -143,4 +157,22 @@ C:\Users\Burudani\Documents\mainPythonFolder_v1\Bash\exprimebash.sh firstpipe "2
 
 
 chmod +x testBashScript.sh
+
+
+echo export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64 >> ${HOME}/.bashrc  
+echo export PATH="/opt/ibm/java-x86_64-80/bin:$PATH" >> ~/.bashrc && source ~/.bashrc
+
+## 11/15/2021
+- He used  chmod 755 for the script
+- ./installJava.sh post_install 11 && source ~/.bashrc
+
+cat /root/.bashrc
+
+./installJava.sh pre_req 8
+./installJava.sh install 8
+./installJava.sh post_install 8 && source ~/.bashrc
+
+
+sh installJava.sh install 11
+sh installJava.sh post_install 11
 
