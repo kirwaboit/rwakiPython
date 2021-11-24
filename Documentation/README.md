@@ -25,7 +25,12 @@
 <!--- This is an HTML comment in Markdown -->
 <!--- This is an HTML comment in Markdown -->
 
- 
-![Image](images/BashPNGimage.png)
 
-Documentation\images\BashPNGimage.png
+
+## Best way to include images that are in you current directory
+- use html formatting e.g
+
+`<img src="images/BashPNGimage.png" alt="drawing" width="400" height="174"/>`  
+<img src="images/BashPNGimage.png" alt="drawing" width="400" height="174"/>  
+
+

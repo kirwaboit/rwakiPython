@@ -2,8 +2,28 @@
 <img src="images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>  
 
 # Welcome to BASH!!  
-- Bash supports regular expressions or regex!
 
+- Bash supports regular expressions or regex!
+- Using tab , autocomplete file names
+- touch can be used to create several files at a time, as long as you separate them by space e.g 
+`touch file1.txt file3.txt file3.txt`
+
+
+
+## enter a directory e.g the famous opt directory
+
+`cd /opt`  
+
+or
+`cd /opt/folderIwant` 
+
+or  to go straight to the `home` directory  
+
+`cd ~`
+
+or  to go straight to the `root` directory 
+
+`cd /`  
 
 ## Identify the shell of your system
 
@@ -15,6 +35,16 @@
 ## See contents 
 `cat filename.txt`
 
+## less
+- less is a much better version of cat, does the same thing except opens the contents of your search in a new window
+- All you need to do is remember to use `q` to exit the window and return to your previous terminal screen  
+
+- `less filename.txt`  
+- `less /etc/os-release` 
+
+- To display numbers on the search use the `N` flag/option  NOTE: the N must be capitalized  e.g  
+`less -N  /etc/os-release` 
+
 ## Assigning variables
 - please please please!!! note: bash HATES spaces in assignments, e.g:-
 - `java_ver = $1`   -DON'T do This
@@ -22,7 +52,7 @@
 - If you make the mistake above, you will get `command not found`
 ## My current instances of interest
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-52-201-31-127.compute-1.amazonaws.com`   --for SUSE Linux
-`ssh -i "rwakiPython_v2.pem" ec2-user@ec2-54-174-4-0.compute-1.amazonaws.com `     -- for RHEL
+`ssh -i "rwakiPython_v2.pem" ec2-user@ec2-54-174-4-0.compute-1.amazonaws.com `     --for RHEL
 
 ## add user
 
@@ -37,11 +67,7 @@
 `su user`
 `sudo su`   - change to root user in ec2
 
-## enter a directory e.g the famous opt directory
 
-`cd /opt`  
-or
-`cd /opt/folderIwant`
 ## go up a directory, or to back out of directory(remember the space between the CD and the dots)
 
 `cd .. ` 
@@ -52,6 +78,14 @@ or
 
 `sudo dnf update`
 
+## move a file using verbose command (recommended)
+- using the verbose command, just summarizes for you what happened during the copy command e.g   
+
+`cp -v file2beCopied.txt /home/newDirectory`  
+
+output:-
+
+`file2beCopied.txt -> /home/newDirectory`
 ## present working directory  
 `pwd`  
 
