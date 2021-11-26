@@ -7,7 +7,31 @@
 - Using tab , autocomplete file names
 - touch can be used to create several files at a time, as long as you separate them by space e.g 
 `touch file1.txt file3.txt file3.txt`
+- `rm` to remove a file and `rmdir` to remove a directory, NB: there is no recyclebin in windows so be aware when using rm
+-  grep is used for key word searches
+- username of the user is identified before the `@` sign  e.g  
+`[ec2-user@ip-172-31-20-76 ~]$` the user here is called `ec2-user`, if you were the root user , it would indicate `root` instead
+- To get instructions or a manual on a specific command, use the `man` command e.g:-
+- `man ls`
+- chown used to change the owner and group of a file
+- chmod 777 gives permission to everyone to read , write, execute all commands for all users and groups
+- ls can be used to search for :open files, all files (including hidden files)
 
+## TODO
+- So there is a ways to print values on a new line e.g
+`echo "${PATH//:/$'\n'}"`
+- so apparently there is a way to add color to specific values in text, find out how  e.g view this command below
+`ip -stats -color -human addr`
+- 
+## Quick Commands
+
+- History = latest commands used, free=shows the free memory and swap memory used
+## ls, listing files 
+
+- `ls` can be used to search for :open files, all files (including hidden files)
+- `ls -all` shows all files in a directory including the hidden ones 
+- e.g list all files open by a user known as rwaki :-
+-  `lsof -u rwaki`
 
 
 ## enter a directory e.g the famous opt directory
@@ -36,7 +60,7 @@ or  to go straight to the `root` directory
 `cat filename.txt`
 
 ## less
-- less is a much better version of cat, does the same thing except opens the contents of your search in a new window
+- less is a much better version of cat, it does the same thing except opens the contents of your search in a new window
 - All you need to do is remember to use `q` to exit the window and return to your previous terminal screen  
 
 - `less filename.txt`  
@@ -54,12 +78,14 @@ or  to go straight to the `root` directory
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-52-201-31-127.compute-1.amazonaws.com`   --for SUSE Linux
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-54-174-4-0.compute-1.amazonaws.com `     --for RHEL
 
-## add user
+## add new user
 
+`sudo useradd newUser`
+e.g 
 
 ## add password for new user
 
-`passwd`
+`passwd newUser`
 
 
 ## (su)switch user
@@ -172,6 +198,8 @@ echo export PATH=\"/opt/ibm/java-x86_64-80/bin:$PATH\">> semaText.txt
 ## show human readable path
 `echo "${PATH//:/$'\n'}"`
 
+## view ip information
+`ip -stats -color -human addr`
 
 ## Best utilities to install in new linux instance for productivity
 - App for zip and unzip install files
