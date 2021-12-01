@@ -17,6 +17,17 @@
 - chmod 777 gives permission to everyone to read , write, execute all commands for all users and groups
 - ls can be used to search for :open files, all files (including hidden files)
 
+
+## In windows
+
+If you add the extension `.SH` to the environment variable `PATHEXT`, you will be able to run shell scripts from PowerShell by only using the script name with arguments e.g  
+
+`PS> .\script.sh args`  
+
+If you store your scripts in a directory that is included in your PATH environment variable, you can run it from anywhere, and omit the extension and path:  
+`PS> script args`  
+
+Note: sh.exe or another *nix shell must be associated with the .sh extension.  
 ## TODO
 - So there is a ways to print values on a new line e.g
 `echo "${PATH//:/$'\n'}"`
