@@ -3,11 +3,11 @@
 
 # Welcome to BASH!!  
 
-- Bash supports regular expressions or regex!
+- Bash supports regular expressions/regex!
 - Using tab , autocomplete file names
 - touch can be used to create several files at a time, as long as you separate them by space e.g 
 `touch file1.txt file3.txt file3.txt`
-- `rm` to remove a file and `rmdir` to remove a directory, NB: there is no recyclebin in windows so be aware when using rm
+- `rm` to remove a file and `rmdir` to remove a directory, NB: there is no recycle bin in windows so be aware when using rm
 -  grep is used for key word searches
 - username of the user is identified before the `@` sign  e.g  
 `[ec2-user@ip-172-31-20-76 ~]$` the user here is called `ec2-user`, if you were the root user , it would indicate `root` instead
@@ -22,7 +22,16 @@
 `echo "${PATH//:/$'\n'}"`
 - so apparently there is a way to add color to specific values in text, find out how  e.g view this command below
 `ip -stats -color -human addr`
-- 
+- from the above command what does the human addr mean? is it available to other commands as such?
+
+## Shell
+- translates instructions for understanding by the kernel
+
+## Diskspace
+- You don't want to exceed the 80% disk threshold space, otherwise you need more space
+- To check this use :-
+- `sudo df -h`
+
 ## Quick Commands
 
 - History = latest commands used, free=shows the free memory and swap memory used
@@ -79,21 +88,31 @@ or  to go straight to the `root` directory
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-54-174-4-0.compute-1.amazonaws.com `     --for RHEL
 
 ## add new user
+- you can specificy the users password,group, home directory,expiry date
 
 `sudo useradd newUser`
-e.g 
+
 
 ## add password for new user
 
 `passwd newUser`
 
+## Delete a user
+`sudo userdel <username>`
 
+- The home directory of the user is not deleted , delete it using the -r option
+
+
+## Change Password Options for users
+`chage <username>`
 ## (su)switch user
 
 `su user`
 `sudo su`   - change to root user in ec2
 
+# Show users and their permission and groups, with line numbers
 
+`less -N /etc/passwd`
 ## go up a directory, or to back out of directory(remember the space between the CD and the dots)
 
 `cd .. ` 

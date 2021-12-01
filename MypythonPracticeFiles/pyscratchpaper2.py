@@ -1,7 +1,7 @@
 from multipledispatch import dispatch
+import sys
 
-
-help(dispatch)
+#help(dispatch)
  
 #passing one parameter
 @dispatch(int,int)
@@ -25,3 +25,7 @@ def product(first,second,third):
 #calling product method with 2 arguments
 product(2,3,2) #this will give output of 12
 product(2.2,3.4,2.3) # this will give output of 17.985999999999997
+
+
+
+print(sys.executable)

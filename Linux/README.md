@@ -20,6 +20,8 @@
 
 - Networking
 - AWS
-
-## Linux
-- 
+# TODO
+- test multiple user access on linux system 
+## Linux User Admin
+- each user is identified by a unique user ID  or UID
+- linux supports multiple users be logged into the same system 

@@ -8,7 +8,7 @@ ec2client = boto3.client('ec2')
 response = ec2client.stop_instances(
     InstanceIds=[      # don't forget comma if adding multiple values
         #'i-0808ef104dc98bf71'   #  RHEL8_v5 
-        'i-04e52c00bb4934304'  #  SUSE Linux
+        'i-01317b948441c0e7e'  #  RHEL8_v0007
     ],
     Hibernate=False,
     DryRun=False, # If true then it will test to see if you have permissions, without running the actual code
