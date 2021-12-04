@@ -1,6 +1,10 @@
 # Welcome to Git Commands
 ---
 
+## Current User Credentials
+
+git config --global user.name "rwaki"
+git config --global user.email "instrumetric.net@gmail.com"
 ## Create Branch
 
 `git branch stage`
