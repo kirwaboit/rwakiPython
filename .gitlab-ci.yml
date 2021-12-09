@@ -16,3 +16,9 @@ build_stage:
      - cd "C:\Users\Burudani\OneDrive\Documents\OnedriveTestFolder\aws_rwakiterraform"
      - dir
      - git pull https://gitlab.com/rwaki/aws_rwakiterraform.git
+
+
+test_stage:
+   stage: test
+   tags:
+     - ci
