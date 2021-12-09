@@ -22,3 +22,7 @@ test_stage:
    stage: test
    tags:
      - ci
+   script:
+     - echo "This is the Test stage"
+
+  
