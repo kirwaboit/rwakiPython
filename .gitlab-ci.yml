@@ -7,8 +7,7 @@ stages:
 
 build_stage:
    stage: build
-   tags:
-     - ci
+   
    script:
      - cd "C:\Users\Burudani\OneDrive\Documents\OnedriveTestFolder\aws_rwakiterraform"
      - dir
