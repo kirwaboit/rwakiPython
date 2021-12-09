@@ -5,9 +5,6 @@ stages:
   - deploy
   - docs
 
-
-
-
 build_stage:
    stage: build
    tags:
@@ -25,4 +22,21 @@ test_stage:
    script:
      - echo "This is the Test stage"
 
-  
+
+deploy_stage:
+   stage: deploy
+   tags:
+     - ci
+   script:
+     - echo "This is the deploy stage"
+
+
+docs_stage:
+   stage: docs
+   tags:
+     - ci
+   script:
+     - echo "This is the docs stage"
+     
+
+     
