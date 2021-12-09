@@ -41,8 +41,6 @@ deploy_CRON_stage:
 
 docs_stage:
    stage: docs
-   tags:
-     - ci
    script:
      - echo "This is the docs stage"
      
