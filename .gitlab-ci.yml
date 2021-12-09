@@ -17,24 +17,21 @@ build_stage:
 
 test_stage:
    stage: test
-   tags:
-     - ci
+
    script:
      - echo "This is the Test stage"
 
 
 deploy_API_stage:
    stage: deploy
-   tags:
-     - ci
+  
    script:
      - echo "This is the api-deploy stage"
 
 
 deploy_CRON_stage:
    stage: deploy
-   tags:
-     - ci
+  
    script:
      - echo "This is the cron-deploy stage"
 
