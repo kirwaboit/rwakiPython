@@ -1,4 +1,14 @@
-demo_job_1:
+
+stages:
+  - build
+  - test
+  - deploy
+  - docs
+
+
+
+
+build_stage:
    stage: build
    tags:
      - ci

@@ -3,20 +3,33 @@
 
 # Welcome to BASH!!  
 
+## Intro
+
 - Bash supports regular expressions/regex!
 - Using tab , autocomplete file names
 - touch can be used to create several files at a time, as long as you separate them by space e.g 
-`touch file1.txt file3.txt file3.txt`
+  `touch file1.txt file3.txt file3.txt`
 - `rm` to remove a file and `rmdir` to remove a directory, NB: there is no recycle bin in windows so be aware when using rm
--  grep is used for key word searches
+- grep is used for key word searches
 - username of the user is identified before the `@` sign  e.g  
-`[ec2-user@ip-172-31-20-76 ~]$` the user here is called `ec2-user`, if you were the root user , it would indicate `root` instead
+  `[ec2-user@ip-172-31-20-76 ~]$` the user here is called `ec2-user`, if you were the root user , it would indicate `root` instead
 - To get instructions or a manual on a specific command, use the `man` command e.g:-
 - `man ls`
 - chown used to change the owner and group of a file
 - chmod 777 gives permission to everyone to read , write, execute all commands for all users and groups
 - ls can be used to search for :open files, all files (including hidden files)
 
+## Best Practices  
+
+- Don't use cat , to see contents of as directory or a file, use `less` just remember to use 
+
+## TODO
+
+- So there is a ways to print values on a new line e.g
+  `echo "${PATH//:/$'\n'}"`
+- so apparently there is a way to add color to specific values in text, find out how  e.g view this command below
+  `ip -stats -color -human addr`
+- from the above command what does the human addr mean? is it available to other commands as such?
 
 ## In windows
 
@@ -28,12 +41,8 @@ If you store your scripts in a directory that is included in your PATH environme
 `PS> script args`  
 
 Note: sh.exe or another *nix shell must be associated with the .sh extension.  
-## TODO
-- So there is a ways to print values on a new line e.g
-`echo "${PATH//:/$'\n'}"`
-- so apparently there is a way to add color to specific values in text, find out how  e.g view this command below
-`ip -stats -color -human addr`
-- from the above command what does the human addr mean? is it available to other commands as such?
+
+
 
 ## Shell
 - translates instructions for understanding by the kernel
@@ -268,4 +277,6 @@ cat /root/.bashrc
 
 sh installJava.sh install 11
 sh installJava.sh post_install 11
+
+testing 123
 
