@@ -23,12 +23,20 @@ test_stage:
      - echo "This is the Test stage"
 
 
-deploy_stage:
+deploy_API_stage:
    stage: deploy
    tags:
      - ci
    script:
-     - echo "This is the deploy stage"
+     - echo "This is the api-deploy stage"
+
+
+deploy_CRON_stage:
+   stage: deploy
+   tags:
+     - ci
+   script:
+     - echo "This is the cron-deploy stage"
 
 
 docs_stage:
