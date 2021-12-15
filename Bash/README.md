@@ -21,7 +21,7 @@
 
 ## Best Practices  
 
-- Don't use cat , to see contents of as directory or a file, use `less` just remember to use 
+- Don't use `cat` , to see contents of as directory or a file, use `less` just remember to use 'q' to exit when done!
 
 ## TODO
 

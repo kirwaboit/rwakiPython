@@ -1,7 +1,4 @@
-# Welcome to linux
-
---- 
-
+# Devops learning plan
 - Linux -15 hrs
     - OS
     - File system
@@ -27,4 +24,6 @@
 - test multiple user access on linux system 
 ## Linux User Admin
 - each user is identified by a unique user ID  or UID
-- linux supports multiple users be logged into the same system 
+- linux supports multiple users be logged into the same system
+
+Gazagda1@234 for mckinsey and company
