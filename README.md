@@ -1,8 +1,44 @@
-﻿# Python Notes
+﻿﻿﻿
+
+<img src="bash/images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>  
+
+
+
+<img src="bash/images/interactivePic.drawio.svg" alt="drawing" align="left" width="800" height="374"/>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src="https://code.visualstudio.com/assets/updates/1_63/notebook-file-links.gif" alt="drawing" align="left" width="800" height="374"/>
+
+
+
+## Table of Contents
+- [1.TODO](#1-todo)
+    - [1.1 Use cases](#11-usecases)
+    - [1.2 Best Practices](#12-best-practices)
+        - [1.2.1 At Home](#121-at-home)
+
+﻿ # Python Notes
 
 DRY - Don't Repeat Yourself, concept for re-using code
 
-# VScode Tips
+# Vscode Tips
 
 - Select current word =  ctrl + D  
 - Select all instances of that word = ctrl + shft + L
@@ -48,7 +84,7 @@ and other stuff
 ```
 
 
- 
+
 ## Setting up git clone(copy) for the first time
 git clone git@github:me/name.git .
 

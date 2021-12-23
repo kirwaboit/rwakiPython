@@ -1,5 +1,6 @@
-
 <img src="images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>  
+
+<img src="images/interactivePic.drawio.svg" alt="drawing" align="left" width="800" height="374"/>
 
 # Welcome to BASH!!  
 

@@ -3,7 +3,7 @@
 ## About Credentials
 
 - When you create a user , you get credentials that identify them, those creds are what you input into aws cli to access your AWS account using boto3 
-- After you download amazon cli and configure it, make sure to ensure you have a .aws file in your "user" directory, and that file has your latest "active" credentials.Make sure it has your 2 config files and that both have your credentials identified  
+- After you download amazon cli and configure it, make sure to ensure you have a .aws file in your "user" directory, and that file has your latest "active" credentials. Make sure it has your 2 config files and that both have your credentials identified  
 - Boto3 uses credentials set up on your machine when you ran AWS-configure, the creds are updated and stored in user/.aws folder
 
 Config file (does not have an extension)
@@ -18,7 +18,11 @@ Credentials file  (does not have an extension)
                 aws_access_key_id = XXXXXX  
                 aws_secret_access_key = XXXXXXXXXX  
 
+### Current users
 
+1. Myself root, instrumetric.net Gaz1
+2. rwakiDevops  
+   1. Has console access at : https://rwaki.signin.aws.amazon.com/console 
 
 ## IAM  
 - Stands for Identity Access Management. It is global, you don't need to specify a region, applies to users and groups  
