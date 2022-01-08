@@ -1,12 +1,10 @@
-﻿﻿﻿﻿
+﻿﻿
 
-<img src="bash/images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>  
-
-
-
-<img src="bash/images/interactivePic.drawio.svg" alt="drawing" align="left" width="800" height="374"/>   
+<img src="bash/images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>    
 
 
+
+<img src="bash/images/interactivePic.drawio.svg" alt="drawing" align="left" width="800" height="374"/>     
 
 
 
@@ -24,7 +22,9 @@
 
 
 
-<img src="https://code.visualstudio.com/assets/updates/1_63/notebook-file-links.gif" alt="drawing" align="left" width="800" height="374"/>
+
+
+<img src="https://code.visualstudio.com/assets/updates/1_63/notebook-file-links.gif" alt="drawing" align="left" width="800" height="374"/>  
 
 
 
