@@ -1,3 +1,3 @@
-# Welcome to Fincance
+# Welcome to Finance
 
 ## Finance meeting

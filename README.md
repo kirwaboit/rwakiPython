@@ -1,4 +1,4 @@
-﻿﻿﻿
+﻿﻿﻿﻿
 
 <img src="bash/images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>  
 
@@ -231,4 +231,24 @@ df[df['Country (region)'].str.match('^P.*')== True]
 df['Country (region)'].str.match('^P.*')== True
 
 
+
+## Questions for ivy
+
+1. Hi So I talk to a couple  of people I have been helping , I like to ask them these questions (it's always nice to have alot of good friends in this area)
+2. Tell me a bit more about this internship who is it with and for how long?, are you getting paid?  what tasks are they giving you ? anything with power BI? or just Sql pulls
+   1. internship free
+3. Have you sent out you resume to start getting job offers?
+   1. 12000 IN A YEAR
+4. Have you had any interviews so far?  how did they go , did you get any offers and for how much?
+5. What are your most difficult challenges at this moment in time? e.g understanding sometype of grouping sql code, DAX scripts in power BI etc, or answerign certain interview questions
+6. Do you discuss your work currently with your classmates?
+
+6. Is your sister still considering going back into data science
+
+7. Finaly if there is anythign I can do to assist you please let me know, ty!
+8. I am proud of the progress you have made!!! umetoka mbali!! and you have achieved alot
+
+ivy.njoroge@gmail.com
+
+​	
 
