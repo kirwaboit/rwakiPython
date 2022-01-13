@@ -1,40 +1,28 @@
-﻿﻿
+﻿﻿---
+page_type: sample
+description: "This sample consists of a Python web application that invokes common Microsoft Graph security API calls."
+products:
+- ms-graph
+languages:
+- python
+- html
+extensions:
+  contentType: samples
+  technologies:
+  - Microsoft Graph
+  services:
+  - Security 
+  createdDate: 4/5/2018 3:22:33 PM
+---
+# Python Notes
 
-<img src="bash/images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>    
-
-
-
-<img src="bash/images/interactivePic.drawio.svg" alt="drawing" align="left" width="800" height="374"/>     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img src="https://code.visualstudio.com/assets/updates/1_63/notebook-file-links.gif" alt="drawing" align="left" width="800" height="374"/>  
-
-
-
-## Table of Contents
+![language:Python](https://img.shields.io/badge/Language-Python-blue.svg?style=flat-square) ![license:MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)  
+Welcome! this is a repo containing files for practicing python and other programming languages 
+## Table of Contents  
 - [1.TODO](#1-todo)
     - [1.1 Use cases](#11-usecases)
     - [1.2 Best Practices](#12-best-practices)
-        - [1.2.1 At Home](#121-at-home)
-
-﻿ # Python Notes
+        - [1.2.1 At Home](#121-at-home)  
 
 DRY - Don't Repeat Yourself, concept for re-using code
 
@@ -44,12 +32,19 @@ DRY - Don't Repeat Yourself, concept for re-using code
 - Select all instances of that word = ctrl + shft + L
 
 # Markdown tips
-How to add new line in Markdown presentation?  
-To force a line return, place two empty spaces at the end of a line.   
-For code just use 4 spaces
-for Colored text use this template <span style="color:orange">some *orange* text</span>.   
-Great Markdown guide [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/).
+- How to add new line in Markdown presentation?  
+- To force a line return, place two empty spaces at the end of a line.   
+- For code just use 4 spaces
+- for Colored text use this template <span style="color:orange">some *orange* text</span>.   
+- Great Markdown guide [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/).
 \\( and \\)
+- For html picture links...avoid using the `align` function e.g `align = left`  this messes up how markdown is viewed in several editors
+
+## Image Examples
+<img src="bash/images/bashDarkLogo.png" alt="drawing" width="400" height="174"/>   
+<img src="bash/images/interactivePic.drawio.svg" alt="drawing" align="left" width="800" height="374"/>  
+<img src="https://code.visualstudio.com/assets/updates/1_63/notebook-file-links.gif" alt="drawing" width="800" height="374"/>  
+
 
 # Git Operations
 ## Git pushing 
@@ -66,7 +61,7 @@ Pushing with a token
 git push "https://gitlab-ci-token:accessTokenHere@gitlab.com/rwaki/rwakipythonpractice.git" master 
 
 
-
+##
 
 
 
