@@ -1,19 +1,4 @@
-﻿﻿---
-page_type: sample
-description: "This sample consists of a Python web application that invokes common Microsoft Graph security API calls."
-products:
-- ms-graph
-languages:
-- python
-- html
-extensions:
-  contentType: samples
-  technologies:
-  - Microsoft Graph
-  services:
-  - Security 
-  createdDate: 4/5/2018 3:22:33 PM
----
+﻿﻿
 # Python Notes
 
 ![language:Python](https://img.shields.io/badge/Language-Python-blue.svg?style=flat-square) ![license:MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)  
@@ -61,7 +46,26 @@ Pushing with a token
 git push "https://gitlab-ci-token:accessTokenHere@gitlab.com/rwaki/rwakipythonpractice.git" master 
 
 
-##
+## Configuration
+
+To configure the samples, you'll need to register a new application in the Microsoft [Application Registration Portal](https://go.microsoft.com/fwlink/?linkid=2083908).
+
+Follow these steps to register a new application:
+
+1. Sign in to the [Application Registration Portal](https://go.microsoft.com/fwlink/?linkid=2083908) using either your personal or work or school account.
+2. Choose **New registration**.
+3. Enter an application name, enter `http://localhost:5000/login/authorized` as the Redirect URL.
+    > **Note:** If you would like your application to be multi-tenanted, select `Accounts in any organizational directory` in the **Supported account types** section.
+4. Select **Register**.
+5. Next you'll see the overview page for your app. Copy and save the **Application Id** field. You will need it later to complete the configuration process.
+6. Under **Certificates & secrets**, choose **New client secret** and add a quick description. A new secret will be displayed in the **Value** column. Copy this password. You will need it later to complete the configuration process.
+7. Under **API permissions**, choose **Add a permission** > **Microsoft Graph**.
+8. Under **Delegated Permissions**, add the permissions/scopes required for the sample. This sample requires **User.Read**,  **SecurityEvents.ReadWrite.All**, and **SecurityActions.ReadWrite.All** permissions.
+    >**Note**: See the [Microsoft Graph permissions reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference) for more information about Graph's permission model.
+
+Follow these steps to allow [webhooks](https://developer.microsoft.com/en-us/graph/docs/concepts/webhooks) to access the sample via a NGROK tunnel:
+
+> **Note**: This is required if you want to test the sample Notification Listener on localhost. You must expose a public HTTPS endpoint to create a subscription and receive notifications from Microsoft Graph. While testing, you can use ngrok to temporarily allow messages from Microsoft Graph to tunnel to a localhost port on your computer.
 
 
 
