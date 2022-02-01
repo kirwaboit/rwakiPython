@@ -24,6 +24,16 @@
 
 - Don't use `cat` , to see contents of as directory or a file, use `less` just remember to use 'q' to exit when done!
 
+## Troubleshooting
+
+- If you ever get stuck in in a "less" text editor
+  - CTRL + C first to clear all other text that you have tried to input.
+    then
+    :q
+    to exit from it.
+- Blank linux screen?
+  - use ctrl + c to exit out of that
+
 ## TODO
 
 - So there is a ways to print values on a new line e.g
@@ -55,7 +65,8 @@ Note: sh.exe or another *nix shell must be associated with the .sh extension.
 
 ## Quick Commands
 
-- History = latest commands used, free=shows the free memory and swap memory used
+- History = latest commands used,  
+- free=shows the free memory and swap memory used
 ## ls, listing files 
 
 - `ls` can be used to search for :open files, all files (including hidden files)
@@ -86,6 +97,10 @@ or  to go straight to the `root` directory
 ## Operating system details  
 `cat /etc/os-release` 
 
+or for more details  
+
+`less /etc/os-release`  - just remember to type q to exit
+
 ## See contents 
 `cat filename.txt`
 
@@ -107,6 +122,8 @@ or  to go straight to the `root` directory
 ## My current instances of interest
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-52-201-31-127.compute-1.amazonaws.com`   --for SUSE Linux
 `ssh -i "rwakiPython_v2.pem" ec2-user@ec2-54-174-4-0.compute-1.amazonaws.com `     --for RHEL
+
+`ssh -i "rwakiPython_v2.pem" centos@ec2-54-90-45-239.compute-1.amazonaws.com` -- for CentOS Docker
 
 ## add new user
 - you can specificy the users password,group, home directory,expiry date
