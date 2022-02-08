@@ -1,6 +1,6 @@
 import boto3
-import yaml
-import json
+#import yaml
+#import json
 
 '''The attempt below unfortunately prints everything about the ec2, only need certain resources about it'''
 

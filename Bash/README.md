@@ -33,6 +33,7 @@
     to exit from it.
 - Blank linux screen?
   - use ctrl + c to exit out of that
+- When you make permission changes, sometimes logging out then logging back in helps the system recognize the changes
 
 ## TODO
 
@@ -67,6 +68,7 @@ Note: sh.exe or another *nix shell must be associated with the .sh extension.
 
 - History = latest commands used,  
 - free=shows the free memory and swap memory used
+- printenv =  see your environment variables
 ## ls, listing files 
 
 - `ls` can be used to search for :open files, all files (including hidden files)
@@ -278,11 +280,86 @@ C:\Users\Burudani\Documents\mainPythonFolder_v1\Bash\exprimebash.sh firstpipe "2
 
 chmod +x testBashScript.sh
 
-
 echo export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64 >> ${HOME}/.bashrc  
 echo export PATH="/opt/ibm/java-x86_64-80/bin:$PATH" >> ~/.bashrc && source ~/.bashrc
 
+## Setting up a linux server for development
+
+- Install the unzip utility, so as to be able to unzip installation files
+- `sudo apt install unzip`
+
+
+
+## Install python development enviroment in Ubuntu
+
+- check if there is python first
+
+- `python --version`
+
+- update and refresh repositories
+
+- `sudo apt update`
+
+- install supporting software
+
+- `sudo apt install software-properties-common`
+
+- install pip
+
+- `sudo apt install python3-pip`
+
+- install virtual env
+
+- `pip install virtualenv`
+
+- You will get an error message such as:-
+
+- `WARNING: The script virtualenv is installed in '/home/rwaki/.local/bin' which is not on PATH.
+    Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.`
+
+- check out your current path
+
+- `echo "${PATH//:/$'\n'}"`
+
+- Add your directory to the ~/.bashrc  file (append it at the end of the file). You can do this on one of two way:-
+
+  - Open the file itself in vscode  and add  `export PATH="$HOME/rwaki/.local/bin:$PATH"`  as the last line
+  - Append it using code(havign issues with this method at the moment)
+
+- Load the new $PATH  into the current shell session using the source command
+
+- `source ~/.bashrc` 
+
+- reboot your linux system
+
+- Check the version of virstualenv
+
+- `virtualenv --version` 
+
+- Create a New Virtual enviroment for your python development
+
+- `virtualenv johnDoePythonEnv`
+
+- Activate the new environment so that when you use pip, the packages will be installed in the current active  environment
+
+- `source johnDoePythonEnv/bin/activate` 
+
+- My current environment is `source rwakiPythonEnv/bin/activate`
+
+- To deactivate the enviroment, and return to your normal prompt
+
+- `deactivate`
+
+- Note you can still run python programs outside your enviroment , by specifying the enviroement BUT you need to be in your enviroemtn to install packages to that specific enviroement
+
+- Example Running a python script  while specifying the python environment , and the location of the python file to run
+
+- `rwakiPythonEnv/bin/python3 PythonStuff/helloWorld.py`
+
+  
+
 ## 11/15/2021
+
 - He used  chmod 755 for the script
 - ./installJava.sh post_install 11 && source ~/.bashrc
 
@@ -298,3 +375,6 @@ sh installJava.sh post_install 11
 
 testing 123
 
+## Good linux resources
+
+- https://linuxize.com/

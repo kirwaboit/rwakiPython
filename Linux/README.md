@@ -2,11 +2,13 @@
 
 - Red hat created in 1994
 
-- RPM  Red Hat Package Manager
+- RPM =   Red Hat Package Manager
+
+- curl and wget both good for accessing web addresses and downloads and testign APIs, but wget is better for multiple  and large installations 
 
 - Most popular Linux webservers :Apache and Nginx
 
-- most popular Email servers : postfix, dovecot adn sendmail.org
+- most popular Email servers : postfix, dovecot and sendmail.org
 
 - most popular database servers :mariaDb, mysql, postgresql
 
@@ -18,7 +20,10 @@
 
     ​	
 
+## Distributions (Distros)
 
+- RHEL - Red hat  ENterprise Linux
+  - Fedors- testbed for RHEL
 
 
 ## Learning Linux
@@ -49,10 +54,12 @@
 - linux supports multiple users be logged into the same system 
 - sudoers policy - defines various security features of the server e.g how much time users have while running as root, and who can run as root.
 
-## Linux distribution    
+## Linux distribution   
 
-<img src="Linux/images/LinuxDistro.png" alt="drawing" width="400" height="390"/>       
-    
+<img src="images/LinuxDistro.png" alt="drawing" width="50%" height="50%"/>  
+
+
+​    
 
 
 

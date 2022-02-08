@@ -1,9 +1,8 @@
 from tkinter import *
 import boto3
-import yaml
-import json
-import pretty_errors
+#import pretty_errors
 
+#TODO, add how long the server has been running
 
 # ServerStatus v1.000
 
