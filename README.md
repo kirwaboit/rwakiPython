@@ -1,4 +1,4 @@
-﻿﻿
+﻿
 # Python Notes
 
 ![language:Python](https://img.shields.io/badge/Language-Python-blue.svg?style=flat-square) ![license:MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)  
@@ -55,12 +55,14 @@ Follow these steps to register a new application:
 1. Sign in to the [Application Registration Portal](https://go.microsoft.com/fwlink/?linkid=2083908) using either your personal or work or school account.
 2. Choose **New registration**.
 3. Enter an application name, enter `http://localhost:5000/login/authorized` as the Redirect URL.
+   
     > **Note:** If you would like your application to be multi-tenanted, select `Accounts in any organizational directory` in the **Supported account types** section.
 4. Select **Register**.
 5. Next you'll see the overview page for your app. Copy and save the **Application Id** field. You will need it later to complete the configuration process.
 6. Under **Certificates & secrets**, choose **New client secret** and add a quick description. A new secret will be displayed in the **Value** column. Copy this password. You will need it later to complete the configuration process.
 7. Under **API permissions**, choose **Add a permission** > **Microsoft Graph**.
 8. Under **Delegated Permissions**, add the permissions/scopes required for the sample. This sample requires **User.Read**,  **SecurityEvents.ReadWrite.All**, and **SecurityActions.ReadWrite.All** permissions.
+   
     >**Note**: See the [Microsoft Graph permissions reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference) for more information about Graph's permission model.
 
 Follow these steps to allow [webhooks](https://developer.microsoft.com/en-us/graph/docs/concepts/webhooks) to access the sample via a NGROK tunnel:
@@ -73,7 +75,7 @@ Follow these steps to allow [webhooks](https://developer.microsoft.com/en-us/gra
 
 https://docs.gitlab.com/ee/user/project/badges.html
 
-# Git Notes  
+# Markdown Notes  
 To write code in-line use the backtick  e.g  `this is my code`  
 To write code use tripple backticks to mark to open and close the code block, like this:-  
 ``` 
@@ -244,10 +246,16 @@ df['Country (region)'].str.match('^P.*')== True
 
 6. Is your sister still considering going back into data science
 
-7. Finaly if there is anythign I can do to assist you please let me know, ty!
+7. Finally if there is anything I can do to assist you please let me know, ty!
 8. I am proud of the progress you have made!!! umetoka mbali!! and you have achieved alot
 
 ivy.njoroge@gmail.com
 
-​	
+	## Notes
+
+### 2/9/2022
+
+- Docker, created public repo
+- nodeJs is a frame work for doign backend  webdevelopment, good way to start if goign into fullstack dev
+- microservices - way to create services that scale on demand, run apps on containers, managed by kubernetes
 

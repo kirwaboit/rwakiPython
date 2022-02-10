@@ -48,7 +48,13 @@ Docker is a tool used to compartmentalize
 
 
 
-## 1.5 Docker Commands
+## 1.5 DockerHub
+
+- Docker is the docker engine that runs the containers
+- Docker hub is a registry , where is has repositories
+- Docker allows you to host your own private registry and  private repositories within your company
+
+## 1.6 Docker Commands
 
 
 
@@ -58,7 +64,7 @@ Docker is a tool used to compartmentalize
 
 `docker images`  - shows all docker images on the local machine
 
-## 1.6 Docker Ports
+## 1.7 Docker Ports
 
 - Dockers containers can use the same port BUT must use different host ports. The host port decides which container the communication will go to. Container port is only used for internal container usage
 
