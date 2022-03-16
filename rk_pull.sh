@@ -3,4 +3,4 @@
 echo Starting Pull for user :  $(whoami),latest stuff incoming yay!
 
 
-git pull "https://gitlab-ci-token:TqCszEqvPgUyWoA-UZtC@gitlab.com/rwaki/rwakipythonpractice.git" master
+git pull "https://gitlab-ci-token:gjsNyxgD4aMhnjL_iAM_@gitlab.com/rwaki/rwakipythonpractice.git" master
