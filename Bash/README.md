@@ -103,6 +103,10 @@ or for more details
 
 `less /etc/os-release`  - just remember to type q to exit
 
+## See CPU and Mem Usage in the system
+
+
+
 ## See contents 
 `cat filename.txt`
 
