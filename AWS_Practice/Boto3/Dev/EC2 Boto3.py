@@ -16,7 +16,7 @@ instances = ec2.create_instances(
           'Tags': [
             {
               'Key': 'Name',
-              'Value': 'Linux 2 AMI (HVM) v3'
+              'Value': 'Linux 2 AMI (HVM) v3 NEW for ME'
             },
             {
               'Key': 'owner',

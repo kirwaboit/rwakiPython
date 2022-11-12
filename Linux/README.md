@@ -22,8 +22,8 @@
 
 ## Distributions (Distros)
 
-- RHEL - Red hat  ENterprise Linux
-  - Fedors- testbed for RHEL
+- RHEL - Red hat  Enterprise Linux
+  - Fedora- testbed for RHEL
 
 
 ## Learning Linux
@@ -63,7 +63,11 @@
 
 
 
+## Package Managers
 
+- yum
+
+- Dnf
 
 
 

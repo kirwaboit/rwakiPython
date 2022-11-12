@@ -35,3 +35,11 @@ Gazagda1@234 for mckinsey and company
 
 
 ![](http://i.imgur.com/OUkLi.gif)
+
+
+
+
+
+Configuration Management
+
+SCP Vs Rsync
