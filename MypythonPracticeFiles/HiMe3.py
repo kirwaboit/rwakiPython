@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 # Pass a 2D numpy array - each row is the corresponding row required in the dataframe
-
+print(np.version)
 data = np.array([[1,"toyota","corolla","TOYOTA","corolla"],
                  [2,"honda","civic","lamborghini","sinata"],
                  [1,"hyndai","accent car","hyndai","accent car"],

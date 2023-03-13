@@ -161,6 +161,7 @@
     "MONEY TRANSFER AUTHORIZED": "misc_income",
     "IRS TREAS": "tax _return",
     "LOCKHEED MARTIN DIR DEP": "salary",
+    "RAYTHEON COMPANY DIRECT": "salary",
     "ZELLE FROM": "misc_income",
     "EDEPOSIT": "misc_income",
     "ZELLE TO": "helping_people",
@@ -189,5 +190,6 @@
     "CAPITAL TOW": "misc_payment",
     "WOLFRAMALPHA": "education",
     "EMPOWER RETIREMT EMPOWER": "healthcare_loan",
+    "PURCHASE RETURN": "refund",
     "RECURRING PAYMENT AUTHORIZED ON 10/06 BED BATH & BEYOND": "shopping",
     "DOMINO'S": "fast_food"}
