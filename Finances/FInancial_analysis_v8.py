@@ -159,4 +159,4 @@ sheet.freeze_panes = 'A2'  # Freeze the top row
 
 # Save the workbook
 wb.save(excel_path)
-print ("Done with formatting")
+print ("Done Formatting Finance Data")
